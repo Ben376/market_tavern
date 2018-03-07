@@ -1,0 +1,251 @@
+/* CSS julien */
+/* CSS des pills */
+
+.block_entre{
+  margin-bottom:15%;
+  width:80%;
+}
+
+.entree{
+  border:1px red solid;
+  display:flex;
+  justify-content:space-between;
+  font-weight:bold;
+  font-size:1.2em;
+}
+
+.descri_entre{
+  font-style:italic;
+}
+
+/* Side bar côté droit */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color:red;
+}
+
+.btn-open
+{
+position:fixed;
+right:5px;
+top:5px;
+}
+
+/* Navar fixé */
+
+.first_container
+{
+  margin-top:50px;
+}
+
+
+.navbar-header{
+  width:100%;
+}
+
+
+.col_tel, .col_adresse{
+  margin-top:5px;
+  margin-left:40px;
+  display:flex;
+
+}
+
+.logo_tel, .logo_loc{
+  height: 30px;
+  width: 30px;
+  margin-top:10px;
+}
+
+.btn_resa{
+  text-align: center;
+  margin: auto;
+  background-color:black;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* CSS benjamin evenements *
+
+
+body {
+	margin:0;
+	padding:0;
+}
+
+/* CONTAINERS BEHAVIOR */
+
+.carousel.carousel_event{
+	width: 350px;
+	height: 500px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.panel-group {
+	width: 80%;
+	max-width: 90%;
+	min-width: 70%;
+	margin-left:5%;
+}
+
+/* HALF SLIDER HALF ACCORDEON */
+
+.slider-box {
+  	float: left;
+  	width: 50%;
+  	margin-top: 100px;
+  	margin-bottom: 10px;
+}
+.accordeon-box {
+  	float: left;
+  	width: 50%;
+  	margin-top: 180px;
+}
+
+/* TEXT ACCORDEON */
+
+h4 {margin-left: 5%;}
+
+.panel-title {font-weight: bold;}
+
+span {margin-left: 5%;}
+
+.panel-body {line-height: 1.6;}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 1080px) {
+
+.carousel.carousel_event{
+	width: 550px;
+	height: 700px;
+	margin: auto;
+	margin-bottom: 15%;
+}
+
+h4 {
+	font-size: 2.2em;
+	margin-top: 5%;
+}
+
+p {font-size: 1.5em;}
+}
+
+@media only screen and (max-width: 768px) {
+
+.slider-box {
+  	float: none;
+  	width: 100%;
+  	padding:0;
+  	margin:auto;
+}
+.accordeon-box {
+	padding:0;
+  	float: none;
+  	margin:auto;
+  	width: 100%;
+}
+
+.carousel.carousel_event{
+	width: 350px;
+	height: 500px;
+	overflow: hidden;
+	margin: auto;
+}
+
+.panel-group {
+	width: 80%;
+	max-width: 90% ;
+	min-width: 70%;
+	margin: auto;
+}
+
+h4 {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 5%;
+}
+
+p {font-size: 1.2em;}
+}
+
+/* CSS benjamin histoire */
+
+.part_histoire{
+  margin-top:50px;
+  border:2px red solid;
+}
+.sidebar{
+	background: #dbdfe5;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.content{
+    text-align: center;
+    background-color: #dbdfe5;
+    min-height: 400px;
+    border-radius: 15px;
+}
+
+.img_histoire {
+    width: 70%;
+    height: 50%;
+}
+
+/*
+@media only screen and (max-width: 768px) {
+
+.sidebar  {	font-size: 20px; }
+
+}
+
+@media only screen and (min-width: 1048px) {
+
+.sidebar  {	font-size: 25px; }
+
+}
+*/
+
+
+/* Carousel imag */
+.img_fluid{
+max-width: 100%;
+height:auto;
+}
