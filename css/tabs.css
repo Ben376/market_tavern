@@ -100,19 +100,17 @@ top:5px;
 }
 
 /* CSS benjamin evenements *
-
-
-body {
-	margin:0;
-	padding:0;
+/* CONTAINERS BEHAVIOR */
+.events-section {
+  background-color: rgb(220,220,220);
 }
 
-/* CONTAINERS BEHAVIOR */
-
 .carousel.carousel_event{
-	width: 350px;
-	height: 500px;
+  width: 450px;
+  height: 600px;
 	margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 	overflow: hidden;
 }
 
@@ -120,26 +118,22 @@ body {
 	width: 80%;
 	max-width: 90%;
 	min-width: 70%;
-	margin-left:5%;
-}
-
-/* HALF SLIDER HALF ACCORDEON */
-
-.slider-box {
-  	float: left;
-  	width: 50%;
-  	margin-top: 100px;
-  	margin-bottom: 10px;
-}
-.accordeon-box {
-  	float: left;
-  	width: 50%;
-  	margin-top: 180px;
+  margin:auto;
+  margin-top: 10%;
 }
 
 /* TEXT ACCORDEON */
-
-h4 {margin-left: 5%;}
+.titre-accordeon {
+  font-size: 2.2em;
+  color: black;
+  margin-top: 5%;
+  text-align: center;
+  border: solid black;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: white;
+  opacity: 0.8;
+}
 
 .panel-title {font-weight: bold;}
 
@@ -148,56 +142,25 @@ span {margin-left: 5%;}
 .panel-body {line-height: 1.6;}
 
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES */  
 
 @media only screen and (min-width: 1080px) {
-
-.carousel.carousel_event{
-	width: 550px;
-	height: 700px;
-	margin: auto;
-	margin-bottom: 15%;
-}
-
-h4 {
+.titre-accordeon {
 	font-size: 2.2em;
-	margin-top: 5%;
+  text-align: center;
 }
 
-p {font-size: 1.5em;}
+p {font-size: 1.3em;}
 }
 
-@media only screen and (max-width: 768px) {
-
-.slider-box {
-  	float: none;
-  	width: 100%;
-  	padding:0;
-  	margin:auto;
-}
-.accordeon-box {
-	padding:0;
-  	float: none;
-  	margin:auto;
-  	width: 100%;
-}
-
-.carousel.carousel_event{
-	width: 350px;
-	height: 500px;
-	overflow: hidden;
-	margin: auto;
-}
-
+@media only screen and (max-width: 780px) {
 .panel-group {
 	width: 80%;
 	max-width: 90% ;
 	min-width: 70%;
-	margin: auto;
 }
 
-h4 {
-	text-align: center;
+.titre-accordeon {
 	font-size: 2em;
 	margin-top: 5%;
 }
