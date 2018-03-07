@@ -250,4 +250,32 @@ height:auto;
   padding-top: 10px;
   text-transform: uppercase;
 }
-  
+
+/* GRID ON COVER PAGE */
+
+.grid-cover-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+  grid-gap: 10px ;  
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.grid-item-A {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.grid-item-B {
+  grid-column: span 2;
+  grid-row : 1 ;
+} 
