@@ -142,7 +142,7 @@ span {margin-left: 5%;}
 .panel-body {line-height: 1.6;}
 
 
-/* MEDIA QUERIES */  
+/* MEDIA QUERIES */
 
 @media only screen and (min-width: 1080px) {
 .titre-accordeon {
@@ -215,9 +215,45 @@ height:auto;
 
 /* CSS Bar et bieres */
 
-
-
-.cadre_boisson{
-  border:1px red solid;
-<
+.ligne_coktail{
+margin-top:80px;
+margin-bottom: 80px;
 }
+
+.section_biere{
+background-color:rgba(210,210,210,0.5)
+}
+
+.cadre_boisson, .cadre_biere{
+border:2px gray solid;
+margin-bottom:10%;
+}
+.cadre_boisson{
+height:650px;
+}
+
+.cadre_biere{
+height:450px;
+}
+
+.titre_boisson{
+  font-weight:bold;
+  font-size:1.5em;
+}
+
+div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div > ul > li{
+  font-style:italic;
+  font-size:1.2em;
+}
+
+
+
+
+
+
+/*
+.section_biere > .container > .row > h3{
+  color:red;
+  text-align: :center;
+}
+*/
