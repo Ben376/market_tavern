@@ -244,8 +244,17 @@ p {font-size: 1.2em;}
 */
 
 
-/* Carousel imag */
+/* Carousel img */
 .img_fluid{
 max-width: 100%;
 height:auto;
+}
+
+/* CSS Bar et bieres */
+
+
+
+.cadre_boisson{
+  border:1px red solid;
+<
 }
