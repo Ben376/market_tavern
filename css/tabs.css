@@ -251,10 +251,26 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 /* CSS footer */
 .list_footer{
   list-style-type: none;
-  color:red;
+  color:white;
 }
 
 .fond_footer{
-  border:2px red solid;
-  background-color:rgba(210,210,210,0.5)
+  background-color:#918F8F;
+}
+
+.fond_footer > div > div > div > ul > li{
+    margin-bottom:5%;
+}
+
+.logo_rsocial{
+    height:20px;
+    width:20px;
+    margin-left:5%;
+}
+
+.copyright > p{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top:1%;
 }
