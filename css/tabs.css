@@ -317,7 +317,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 .container-fluid {
   padding-top: 10px;
   padding-bottom: 10px;
-
+}
 
 .cover-page {
   color: white;
@@ -360,7 +360,8 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 .grid-item-B {
   grid-column: span 2;
   grid-row : 1 ;
-=======
+}
+
 /* CSS footer */
 .list_footer{
   list-style-type: none;
