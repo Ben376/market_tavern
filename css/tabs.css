@@ -1,13 +1,37 @@
 /* CSS julien */
 /* CSS des pills */
+.first_container{
+  margin-bottom: 3%;
+}
 
 .block_entre{
   margin-bottom:15%;
   width:80%;
 }
 
+/*
+.naviguation_menu > li {
+    text-decoration:none;
+    border:1px red solid;
+    color:red;
+}
+*/
+
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover
+{
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.nav-tabs > li.no-active > a, .nav-tabs > li.no-active > a:focus, .nav-tabs > li.no-active > a:hover{
+    color:black;
+    font-size:25px;
+}
+
+
 .entree{
-  border:1px red solid;
   display:flex;
   justify-content:space-between;
   font-weight:bold;
@@ -18,49 +42,56 @@
   font-style:italic;
 }
 
-/* Side bar côté droit */
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+.menu, .menu_middle{
+  text-align: center;
 }
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+.menu_middle{
+  text-align: center;
+  border-right: 3px gray dotted;
+  border-left: 3px gray dotted;
 }
 
-.sidenav a:hover {
-    color: #f1f1f1;
+.col_entree, .col_plat, .col_dessert{
+  border-right: 3px gray dotted;
+  border-left: 3px gray dotted
 }
 
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-    color:red;
-}
-
-.btn-open
+.nav
 {
-position:fixed;
-right:5px;
-top:5px;
+margin-bottom:3%;
 }
+
+div.container> div > div > ul{
+  list-style-type:none;
+  margin-top:5%;
+}
+
+div.container> div > div > ul > li{
+  padding-bottom:10px;
+}
+
+li.active: > a{
+  color:red;
+}
+.nav > li > a{
+color:blue;
+}
+
+
+div.container > div > div > h4{
+  color:black;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom:10%;
+
+}
+
+div.container > div > div > ul > li{
+  font-style: italic;
+  margin:2%;
+}
+
 
 /* Navar fixé */
 
@@ -137,7 +168,7 @@ span {margin-left: 5%;}
 .panel-body {line-height: 1.6;}
 
 
-/* MEDIA QUERIES */  
+/* MEDIA QUERIES */
 
 @media only screen and (min-width: 1080px) {
 .titre-accordeon {
@@ -199,9 +230,192 @@ height:auto;
 
 /* CSS Bar et bieres */
 
+.ligne_coktail{
+margin-top:80px;
+margin-bottom: 80px;
+}
 
+.section_biere{
+background-color:rgba(210,210,210,0.5)
+}
 
+.cadre_boisson, .cadre_biere{
+border:2px gray solid;
+margin-bottom:10%;
+}
 .cadre_boisson{
-  border:1px red solid;
-<
+height:650px;
+}
+
+.cadre_biere{
+height:450px;
+}
+
+.titre_boisson{
+  font-weight:bold;
+  font-size:1.5em;
+}
+
+div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div > ul > li{
+  font-style:italic;
+  font-size:1.2em;
+}
+
+/*
+.section_biere > .container > .row > h3{
+  color:red;
+
+*/
+
+/* COVER PAGE */
+
+.background {
+  background-image: url(../img/cover-page.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  /* NAVBAR */
+  div.container-fluid:nth-child(3) > h1:nth-child(1){
+    margin-top: 70px;
+  }
+
+  .navbar {
+    background-color: rgba(0,0,0,0);
+    border: none;
+  }
+/* NAVBAR & SIDEBAR */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #b3b3b3;
+    display: block;
+    transition: 0.4s;
+    text-align: center;
+  
+    
+}
+
+.sidenav a:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.sidenav a:first-child {
+  border-bottom: none;
+}
+
+.sidenav a:hover:first-child {
+  color: red;
+}
+
+.closebtn:hover {
+  color: red;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: 50px;
+    margin-left: 2px;
+}
+
+.btn-open {
+  position:fixed;
+  right: 10px;
+  top:0;
+}
+
+
+  
+.container-fluid {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cover-page {
+  color: white;
+}
+
+/* INFORBAR */
+.border-right {
+    border-right: 2px solid white;
+}
+
+.infobar {
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+/* GRID ON COVER PAGE */
+
+.grid-cover-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+  grid-gap: 10px ;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.grid-item-A {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.grid-item-B {
+  grid-column: span 2;
+  grid-row : 1 ;
+}
+
+/* CSS footer */
+.list_footer{
+  list-style-type: none;
+  color:white;
+}
+
+.fond_footer{
+  background-color:#918F8F;
+}
+
+.fond_footer > div > div > div > ul > li{
+    margin-bottom:5%;
+}
+
+.logo_rsocial{
+    height:20px;
+    width:20px;
+    margin-left:5%;
+}
+
+.copyright > p{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top:1%;
 }

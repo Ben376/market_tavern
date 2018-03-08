@@ -14,8 +14,47 @@
   </head>
   <body>
 <header>
-  <!--> Barre menu fixe en haut avec informations essentielles <-->
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="background cover-page">
+    <!-- NAVBAR -->
+    <header class="banner navbar navbar-default navbar-fixed-top" role="banner">
+      <span class="btn-open" style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">OUR STORY</a>
+        <a href="#">RESTAURANT</a>
+        <a href="#">EVENTS</a>
+        <a href="#">DRAFT & BEER</a>
+        <a href="#">BOOK A TABLE</a>
+      </div>
+    </header>
+    <div class="container-fluid text-center hidden-xs hidden-sm">
+      <div class="row infobar hidden-xs">
+        <div class="col-md-4 border-right"><p>15 RUE DE LA RODE <br> 33000 BORDEAUX <br> (+33) 05 56 44 09 58 </p></div>
+        <div class="col-md-4 border-right"><p>EVERY DAY 12H-00H <br> RESERVATION au 01 42 64 52 23 <br> HELLO@THEMARKETTAVERN </p></div>
+        <div class="col-md-4"><p><br><a href="#" class="btn btn-default btn-lg">BOOK A TABLE</a><br/></p></div>
+      </div>
+    </div>
+    <div class="container-fluid text-center">
+      <h1>THE MARKET TAVERN</h1>
+      <p class="hidden-xs">Locally Sourced × Crafted with Love</p>
+    </div>
+    <div class="container hidden-xs hidden-sm">
+      <div class="grid-cover-page">
+        <div class="grid-item grid-item-A">RESTAURANT</div>
+        <div class="grid-item grid-item-B">EVENT</div>
+        <div class="grid-item grid-item-C">BAR</i></div>
+        <div class="grid-item grid-item-D">OUR HISTORY</div>
+      </div>
+    </div>
+    <!-- LOGO MOBILE VERSION -->
+    <div class="container visible-xs visible-sm">
+      <img class="img-responsive center-block" src="./img/logo-white.png" alt="the market tavern logo">
+    </div>
+  </div>
+</header>
+
+  <!-- Barre menu fixe en haut avec informations essentielles -->
+<!--   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
                 <div class="container-fluid">
@@ -45,13 +84,13 @@
         </div>
       </div>
   </nav>
-  <!--> Travail de la "cover page" pour faire afficher le menu via des vignettes <-->
-  
+-->
+<!-- Travail de la "cover page" pour faire afficher le menu via des vignettes -->
 </header>
 
 
 
-    <!--> Breve partie historique du restaurant qui redirige vers la 2nd page <-->
+    <!-- Breve partie historique du restaurant qui redirige vers la 2nd page -->
   <section>
 
     <div class="container part_histoire">
@@ -134,72 +173,76 @@
     </section>
 
 
-    <!--> Partie Menu et carte du restaurant <-->
 
     <div class="container first_container">
       <div class="row">
         <section class="col-xs-12">
 
-          <h2>Menus</h2>
-                <ul class="nav nav-tabs">
-                  <li class="active"><a data-toggle="tab" href="#formule">Nos Menus</a></li>
-                  <li><a data-toggle="tab" href="#starters">Nos entrées</a></li>
-                  <li><a data-toggle="tab" href="#main">Nos plats</a></li>
-                  <li><a data-toggle="tab" href="#dessert">Nos dessert</a></li>
+          <h2>Notre carte</h2>
+                <ul class="nav naviguation_menu nav-tabs">
+                  <li class="no-active"><a data-toggle="tab" href="#formule">Nos Menus</a></li>
+                  <li class="no-active"><a data-toggle="tab" href="#starters">Nos entrées</a></li>
+                  <li class="no-active"><a data-toggle="tab" href="#main">Nos plats</a></li>
+                  <li class="no-active"><a data-toggle="tab" href="#dessert">Nos dessert</a></li>
                 </ul>
             <div class="tab-content">
               <div id="formule" class="tab-pane fade in active">
-                <h3>Nos Menus</h3>
-                    <div class="container">
+                  <div class="container">
                       <div class="row">
-                        <div class="col-xs-12 col-md-4">
-                          <h4>Menu 15€ (disponible uniquement le midi)</h4>
+                        <div class="col-xs-12 col-md-4 menu">
+                          <h4>Menu 15€</h4>
                             <ul>
                               <li>Escargots en persillade</li>
                               <li>Fois gras poellé</li>
                               <li>Salade de chèvre chaud</li>
                             </ul>
+                              <p> ~ </p>
                             <ul>
                               <li>Plat du jour (viande ou poisson)</li>
                               <li>Bavette à l'échalotte</li>
                               <li>Pavé de saumon, beure blanc</li>
                             </ul>
+                            <p> ~ </p>
                             <ul>
                               <li>Dessert du jour</li>
                               <li>Creme brulée</li>
                               <li>Browning au noix de pécan</li>
                             </ul>
                         </div>
-                        <div class="col-xs-12 col-md-4">
-                          <h4>Menu 15€ (disponible uniquement le midi)</h4>
+                        <div class="col-xs-12 col-md-4 menu_middle">
+                          <h4>Menu 15€</h4>
                             <ul>
                               <li>Escargots en persillade</li>
                               <li>Fois gras poellé</li>
                               <li>Salade de chèvre chaud</li>
                             </ul>
+                            <p> ~ </p>
                             <ul>
                               <li>Plat du jour (viande ou poisson)</li>
                               <li>Bavette à l'échalotte</li>
                               <li>Pavé de saumon, beure blanc</li>
                             </ul>
+                            <p> ~ </p>
                             <ul>
                               <li>Dessert du jour</li>
                               <li>Creme brulée</li>
                               <li>Browning au noix de pécan</li>
                             </ul>
                         </div>
-                        <div class="col-xs-12 col-md-4">
-                          <h4>Menu 15€ (disponible uniquement le midi)</h4>
+                        <div class="col-xs-12 col-md-4 menu">
+                          <h4>Menu 15€</h4>
                             <ul>
                               <li>Escargots en persillade</li>
                               <li>Fois gras poellé</li>
                               <li>Salade de chèvre chaud</li>
                             </ul>
+                            <p> ~ </p>
                             <ul>
                               <li>Plat du jour (viande ou poisson)</li>
                               <li>Bavette à l'échalotte</li>
                               <li>Pavé de saumon, beure blanc</li>
                             </ul>
+                            <p> ~ </p>
                             <ul>
                               <li>Dessert du jour</li>
                               <li>Creme brulée</li>
@@ -212,7 +255,6 @@
               </div>
 
               <div id="starters" class="tab-pane fade">
-                  <h3>Nos entrées</h3>
                 <div class="col-xs-12 col-md-4">
                   <div class="block_entre">
                     <div class="entree">
@@ -236,7 +278,7 @@
                     <div class="descri_entre">Provenance Marennes-Oléron</div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-md-4">
+                <div class="col-xs-12 col-md-4 col_entree">
                   <div class="block_entre">
                     <div class="entree">
                         <div class="name_entree">Saumon fumé à l'oseille </div>
@@ -258,7 +300,8 @@
                     </div>
                     <div class="descri_entre">Provenance Marennes-Oléron</div>
                   </div>
-                </div>  <div class="col-xs-12 col-md-4">
+                </div>
+                 <div class="col-xs-12 col-md-4">
                     <div class="block_entre">
                       <div class="entree">
                           <div class="name_entree">Saumon fumé à l'oseille </div>
@@ -283,8 +326,7 @@
                   </div>
               </div>
               <div id="main" class="tab-pane fade">
-                  <h3>Nos plats</h3>
-                  <div class="col-xs-12 col-md-4">
+                 <div class="col-xs-12 col-md-4">
                     <div class="block_entre">
                       <div class="entree">
                           <div class="name_entree"> Bavette à l'échalotte </div>
@@ -307,7 +349,7 @@
                       <div class="descri_entre">Fourré aux tomates séchés et coppa</div>
                     </div>
                   </div>
-                  <div class="col-xs-12 col-md-4">
+                  <div class="col-xs-12 col-md-4 col_plat">
                     <div class="block_entre">
                       <div class="entree">
                           <div class="name_entree"> Bavette à l'échalotte </div>
@@ -357,7 +399,6 @@
 
               </div>
               <div id="dessert" class="tab-pane fade">
-                  <h3>Nos desserts</h3>
                   <div class="col-xs-12 col-md-4">
                     <div class="block_entre">
                       <div class="entree">
@@ -381,7 +422,7 @@
                       <div class="descri_entre">Aux fruits rouges</div>
                     </div>
                   </div>
-                  <div class="col-xs-12 col-md-4">
+                  <div class="col-xs-12 col-md-4 col_dessert">
                     <div class="block_entre">
                       <div class="entree">
                           <div class="name_entree">Creme brulée maison</div>
@@ -432,15 +473,16 @@
           </section>
         </div>
       </div>
-   <!--> Bar et bières <-->
+
+   <div class="container-fluid section_biere">
    <div class="container">
     <div class="row">
-      <h3> Voici nos bières principales ! N'hésitez pas à les découvrir </h3>
-      <div class="col-xs-6 col-sm-6 col-md-3">
-        <div class="cadre_boisson">
-          <img src="img/old_tom_original.jpg" alt="photo de biere" class="img-responsive img_biere"/>
+      <h3> Voici nos principales bières anglaises ! N'hésitez pas à les découvrir </h3>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="cadre_biere">
+          <img src="img/biere1.jpg" alt="biere Old Tom Original" class="img-responsive img_biere"/>
           <ul>
-            <h6> Old Tom Original</h6>
+            <p class="titre_boisson"> Old Tom Original</p>
               <li> Provenance : Robinsons</li>
               <li> Type : blonde</li>
               <li> Degré : 8,5 °</li>
@@ -449,104 +491,96 @@
           </div>
         </div>
 
-        <div class="col-xs-6 col-sm-6 col-md-3 cadre_biere">
-          <div class="cadre_boisson">
-              <img src="img/old_tom_original.jpg" alt="photo de biere" class="img-responsive img_biere"/>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="cadre_biere">
+              <img src="img/biere2.jpg" alt="Fuller's 1845" class="img-responsive img_biere"/>
               <ul>
-                <h6> Old Tom Original</h6>
-                  <li> Provenance : Robinsons</li>
-                  <li> Type : blonde</li>
-                  <li> Degré : 8,5 °</li>
-                  <li> Prix : 3.5 €</li>
+                <p class="titre_boisson"> Fuller's 1845</p>
+                  <li> Provenance : Fuller's Brewery</li>
+                  <li> Type : Ambrée</li>
+                  <li> Degré : 6.3 °</li>
+                  <li> Prix : 4€</li>
                 </ul>
-            </div>  
+            </div>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-3">
-            <div class="cadre_boisson">
-              <img src="img/old_tom_original.jpg" alt="photo de biere" class="img-responsive img_biere"/>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="cadre_biere">
+              <img src="img/biere3.jpg" alt="Thronbridge" class="img-responsive img_biere"/>
               <ul>
-                <h6> Old Tom Original</h6>
-                  <li> Provenance : Robinsons</li>
-                  <li> Type : blonde</li>
-                  <li> Degré : 8,5 °</li>
-                  <li> Prix : 3.5 €</li>
+                <p class="titre_boisson"> Thornbridge Bracia</p>
+                  <li> Provenance : Thornbridge</li>
+                  <li> Type : Noire</li>
+                  <li> Degré : 10 °</li>
+                  <li> Prix : 8€</li>
                 </ul>
               </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-3">
-              <div class="cadre_boisson">
-                <img src="img/old_tom_original.jpg" alt="photo de biere" class="img-responsive img_biere"/>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="cadre_biere">
+                <img src="img/biere4.jpg" alt="AleSmith Private" class="img-responsive img_biere"/>
                 <ul>
-                  <h6> Old Tom Original</h6>
-                    <li> Provenance : Robinsons</li>
-                    <li> Type : blonde</li>
-                    <li> Degré : 8,5 °</li>
-                    <li> Prix : 3.5 €</li>
+                  <p class="titre_boisson"> Old Tom Original</p>
+                    <li> Provenance : AleSmith Brewing</li>
+                    <li> Type : Brune</li>
+                    <li> Degré : 11 °</li>
+                    <li> Prix : 10 €</li>
                 </ul>
               </div>
             </div>
         </div>
      </div>
+   </div>
      <div class="container">
       <div class="row ligne_coktail">
-        <h3> N'oubliez pas non plus nos coktail fait maison !! </h3>
-        <div class="col-xs-6 col-sm-6 col-md-3">
+        <h3> N'oubliez pas non plus nos coktails fait maison !! </h3>
+        <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="cadre_boisson">
-            <img src="img/coktail1.jpg" alt="Coktail Pims" class="img-responsive img_biere"/>
-            <ul>
-              <h6> Americano</h6>
-                <li> Ingredients : 2cl de Martini, 4cl de campari, de l'eau gazeuse</li>
-                <li> Prix : 3.5 €</li>
-            </ul>
-            <p> Venez déguster ce doux Coktail accompagné d'orange et citron </p>
+                <img src="img/coktail1.jpg" alt="Coktail Pims" class="img-responsive img_coktail"/>
+                <ul>
+                  <p class="titre_boisson"> Americano </p>
+                    <li> Ingredients : 2cl de Martini, 4cl de campari, de l'eau gazeuse</li>
+                    <li> Prix : 3.5 €</li>
+                </ul>
             </div>
-          </div>
-          <div class="col-xs-6 col-sm-6 col-md-3">
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="cadre_boisson">
-                  <img src="img/coktail1.jpg" alt="Coktail Pims" class="img-responsive img_biere"/>
+                  <img src="img/coktail5.jpeg" alt="Coktail Pims" class="img-responsive img_coktail"/>
                   <ul>
-                    <h6> Americano</h6>
+                    <p class="titre_boisson"> Americano </p>
                       <li> Ingredients : 2cl de Martini, 4cl de campari, de l'eau gazeuse</li>
                       <li> Prix : 3.5 €</li>
                   </ul>
-                  <p> Venez déguster ce doux Coktail accompagné d'orange et citron </p>
-                </div>
               </div>
-            <div class="col-xs-6 col-sm-6 col-md-3">
+              </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
               <div class="cadre_boisson">
-                  <img src="img/coktail1.jpg" alt="Coktail Pims" class="img-responsive img_biere"/>
+                  <img src="img/coktail3.jpeg" alt="Coktail Pims" class="img-responsive img_coktail"/>
                   <ul>
-                    <h6> Americano</h6>
+                    <p class="titre_boisson"> Americano </p>
                       <li> Ingredients : 2cl de Martini, 4cl de campari, de l'eau gazeuse</li>
                       <li> Prix : 3.5 €</li>
                   </ul>
-                  <p> Venez déguster ce doux Coktail accompagné d'orange et citron </p>
                 </div>
               </div>
-              <div class="col-xs-6 col-sm-6 col-md-3">
+              <div class="col-xs-12 col-sm-6 col-md-3">
                 <div class="cadre_boisson">
-                    <img src="img/coktail1.jpg" alt="Coktail Pims" class="img-responsive img_biere"/>
+                    <img src="img/coktail4.jpeg" alt="Coktail Pims" class="img-responsive img_coktail"/>
                     <ul>
-                      <h6> Americano</h6>
+                      <p class="titre_boisson"> Americano </p>
                         <li> Ingredients : 2cl de Martini, 4cl de campari, de l'eau gazeuse</li>
                         <li> Prix : 3.5 €</li>
                     </ul>
-                    <p class="descri_biere"> Venez déguster ce doux Coktail accompagné d'orange et citron </p>
                   </div>
                 </div>
-
-
-
-
-
-
-
-
-
           </div>
        </div>
 
    <!--> Partie Bar et evenements <-->
+
+
+
+  <div class="container slider-box">
    <section class='events-section'>
      <div class="container">
          <div class="row">
@@ -576,11 +610,11 @@
                              <span class="glyphicon glyphicon-chevron-right"></span>
                              <span class="sr-only">Next</span>
                          </a>
-                      
+
                     </div>
               </div>
 
-   <!-- ACCORDEON -->         
+   <!-- ACCORDEON -->
             <div class="col-xs-12 col-md-6">
               <h4 class='titre-accordeon'>EVENEMENTS<br/> MARKET TAVERN</h4>
                  <div class="panel-group" id="accordion">
@@ -661,11 +695,8 @@
           </div>
       </div>
   </div>
-
-
-
-
-   </section>
+</div>
+</section>
 
     <!--> Partie formulaire contact et réservation <-->
     <section>
@@ -676,6 +707,46 @@
     <!--> Partie footer <-->
 
     <footer>
+    <div class="container-fluid fond_footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <ul class="list_footer">
+              <li> Notre menus </li>
+              <li> Entrées</li>
+              <li> Plats </li>
+              <li> Dessert</li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <ul class="list_footer">
+              <li> Notre bar </li>
+              <li> Nos bières </li>
+              <li> Nos diffusions sportives</li>
+              <li> Nos quizz et concert</li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <ul class="list_footer">
+              <li> Notre histoire </li>
+              <li> Nos événenemnts </li>
+              <li> Abonnez à notre news letter</li>
+              <li>
+                <img src="img/facebook.png" alt=="logo_facebook" class="logo_rsocial"/>
+                <img src="img/twitter.png" alt=="logo_facebook" class="logo_rsocial"/>
+                <img src="img/instagram.png" alt=="logo_facebook" class="logo_rsocial"/>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 copyright">
+            <p> The Market Tavern : Site réalisé par l'agence de communication #AT Team. © Tout droit réservés</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
 
 
     </footer>
@@ -690,8 +761,8 @@
 
 <script>
     function openNav() {
-        document.getElementById("mySidenav").style.width = "300px";
-        document.getElementById("mySidenav").style.height = "500px";
+        document.getElementById("mySidenav").style.width = "100vw";
+        document.getElementById("mySidenav").style.height = "100vh";
     }
 
     function closeNav() {
