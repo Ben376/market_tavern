@@ -1,5 +1,8 @@
 /* CSS julien */
 /* CSS des pills */
+.first_container{
+  margin-bottom: 3%;
+}
 
 .block_entre{
   margin-bottom:15%;
@@ -7,7 +10,6 @@
 }
 
 .entree{
-  border:1px red solid;
   display:flex;
   justify-content:space-between;
   font-weight:bold;
@@ -16,6 +18,56 @@
 
 .descri_entre{
   font-style:italic;
+}
+
+.menu, .menu_middle{
+  text-align: center;
+}
+
+.menu_middle{
+  text-align: center;
+  border-right: 3px gray dotted;
+  border-left: 3px gray dotted;
+}
+
+.col_entree, .col_plat, .col_dessert{
+  border-right: 3px gray dotted;
+  border-left: 3px gray dotted
+}
+
+.nav
+{
+margin-bottom:3%;
+}
+
+div.container> div > div > ul{
+  list-style-type:none;
+  margin-top:5%;
+}
+
+div.container> div > div > ul > li{
+  padding-bottom:10px;
+}
+
+li.active: > a{
+  color:red;
+}
+.nav > li > a{
+color:blue;
+}
+
+
+div.container > div > div > h4{
+  color:black;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom:10%;
+
+}
+
+div.container > div > div > ul > li{
+  font-style: italic;
+  margin:2%;
 }
 
 /* Side bar côté droit */
