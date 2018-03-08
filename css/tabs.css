@@ -99,19 +99,14 @@ top:5px;
   .sidenav a {font-size: 18px;}
 }
 
-/* CSS benjamin evenements *
+/* SECTION EVENTS BEN *
 /* CONTAINERS BEHAVIOR */
-.events-section {
-  background-color: rgb(220,220,220);
-}
-
 .carousel.carousel_event{
-  width: 450px;
+  width: 420px;
   height: 600px;
 	margin: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
-	overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .panel-group {
@@ -168,7 +163,7 @@ p {font-size: 1.3em;}
 p {font-size: 1.2em;}
 }
 
-/* CSS benjamin histoire */
+/* SECTION 1 HISTOIRE BEN */
 
 .part_histoire{
   margin-top:50px;
@@ -178,33 +173,22 @@ p {font-size: 1.2em;}
 	background: #dbdfe5;
 	text-align: center;
 	border-radius: 15px;
+  margin-top: 25%;
+  margin-bottom: 10%;
 }
 
 .content{
     text-align: center;
-    background-color: #dbdfe5;
     min-height: 400px;
     border-radius: 15px;
 }
 
 .img_histoire {
-    width: 70%;
-    height: 50%;
+    width: 100%;
+    height: auto;
+    margin-top:15px;
+    margin-bottom: 15px;
 }
-
-/*
-@media only screen and (max-width: 768px) {
-
-.sidebar  {	font-size: 20px; }
-
-}
-
-@media only screen and (min-width: 1048px) {
-
-.sidebar  {	font-size: 25px; }
-
-}
-*/
 
 
 /* Carousel img */
