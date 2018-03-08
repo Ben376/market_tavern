@@ -99,11 +99,9 @@ top:5px;
   .sidenav a {font-size: 18px;}
 }
 
-/* CSS benjamin evenements *
-/* CONTAINERS BEHAVIOR */
-.events-section {
-  background-color: rgb(220,220,220);
-}
+/* EVENTS SECTION *
+/* containers behaviour */
+.container.event-container {background-color: rgb(245,245,245);}
 
 .carousel.carousel_event{
   width: 450px;
@@ -142,7 +140,7 @@ span {margin-left: 5%;}
 .panel-body {line-height: 1.6;}
 
 
-/* MEDIA QUERIES */  
+/* Media queries events */  
 
 @media only screen and (min-width: 1080px) {
 .titre-accordeon {
@@ -168,43 +166,68 @@ p {font-size: 1.3em;}
 p {font-size: 1.2em;}
 }
 
-/* CSS benjamin histoire */
-
-.part_histoire{
-  margin-top:50px;
-  border:2px red solid;
-}
-.sidebar{
-	background: #dbdfe5;
-	text-align: center;
-	border-radius: 15px;
+/* SECTION HISTORY BEN*/
+.histoire-section {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-image: linear-gradient(yellow, white);
 }
 
-.content{
-    text-align: center;
-    background-color: #dbdfe5;
-    min-height: 400px;
-    border-radius: 15px;
+.histoire-page-droite img { margin:auto; }
+
+.histoire-logo{ padding-bottom: 1rem; }
+
+.align-center { text-align:center; }
+
+.histoire-titre { 
+  font-size: 3rem;
+  word-wrap: break-word;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  padding-bottom: 1.5rem;
 }
 
-.img_histoire {
-    width: 70%;
-    height: 50%;
+.histoire-text:before {
+    color: #333333;
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.2em;
+    vertical-align: -0.4em;
+    position: absolute;
+    top: 3px;
+    left: -1rem;
 }
 
-/*
-@media only screen and (max-width: 768px) {
-
-.sidebar  {	font-size: 20px; }
-
+.histoire-text:after {
+    color: #333333;
+    content: "\201D";
+    font-size: 3em;
+    line-height: 0.1em;
+    vertical-align: -0.45em;
+    position: absolute;
+    bottom: 3px;
+    right: -1rem;
 }
 
-@media only screen and (min-width: 1048px) {
-
-.sidebar  {	font-size: 25px; }
-
+.histoire-text {
+  font-size: 1.75rem;
+  line-height: 1.6;
+  font-style: normal;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display:block;
 }
-*/
+
+.histoire-button { 
+  text-align: center; 
+  margin-top: 8%; 
+  margin-bottom: 5%;
+}
+
+
+
 
 
 /* Carousel imag */
