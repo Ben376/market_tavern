@@ -360,4 +360,30 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 .grid-item-B {
   grid-column: span 2;
   grid-row : 1 ;
+=======
+/* CSS footer */
+.list_footer{
+  list-style-type: none;
+  color:white;
+}
+
+.fond_footer{
+  background-color:#918F8F;
+}
+
+.fond_footer > div > div > div > ul > li{
+    margin-bottom:5%;
+}
+
+.logo_rsocial{
+    height:20px;
+    width:20px;
+    margin-left:5%;
+}
+
+.copyright > p{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top:1%;
 }
