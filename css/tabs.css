@@ -248,12 +248,13 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 
 
 
-
-
-
-/*
-.section_biere > .container > .row > h3{
+/* CSS footer */
+.list_footer{
+  list-style-type: none;
   color:red;
-  text-align: :center;
 }
-*/
+
+.fond_footer{
+  border:2px red solid;
+  background-color:rgba(210,210,210,0.5)
+}
