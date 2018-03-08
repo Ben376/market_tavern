@@ -9,6 +9,28 @@
   width:80%;
 }
 
+/*
+.naviguation_menu > li {
+    text-decoration:none;
+    border:1px red solid;
+    color:red;
+}
+*/
+
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover
+{
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.nav-tabs > li.no-active > a, .nav-tabs > li.no-active > a:focus, .nav-tabs > li.no-active > a:hover{
+    color:black;
+    font-size:25px;
+}
+
+
 .entree{
   display:flex;
   justify-content:space-between;
