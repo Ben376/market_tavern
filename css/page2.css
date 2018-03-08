@@ -1,0 +1,15 @@
+.img-fluid{
+  width:100%;
+  height:auto;
+}
+
+.background-image {
+  background-image: url("..img/image_de_fond.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
