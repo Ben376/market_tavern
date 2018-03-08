@@ -170,8 +170,9 @@ p {font-size: 1.2em;}
 .histoire-section {
     padding-top: 45px;
     padding-bottom: 45px;
-    background-image: linear-gradient(yellow, white);
+    background-image: linear-gradient(#00BFFF, white);
 }
+
 
 .histoire-page-droite img { margin:auto; }
 
