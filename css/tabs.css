@@ -419,3 +419,56 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
     text-align: center;
     margin-top:1%;
 }
+
+/* Partie reservation */
+
+.titre_reservation, .titre_contact{
+    margin-top: 5%;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+div.col-md-5> .text_reservation{
+    font-size: 1.1em;
+    font-style: italic;
+    margin-top: 5%;
+    margin-bottom:5%;
+}
+
+.form-control{
+    margin-bottom:5%;
+    width:60%;
+    position:relative;
+}
+
+
+.reservation{
+    position:relative;
+    border:2px black solid;
+    border-radius: 20px;
+}
+
+.date_heure{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.tel, .mail, .nb_personnes{
+    width:50%;
+}
+
+.heure{
+    width:30%;
+}
+
+.btn-primary{
+    position:relative;
+    left:60%;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+iframe{
+    width:100%;
+}
