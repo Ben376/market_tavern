@@ -7,16 +7,22 @@
 .block_entre{
   margin-bottom:15%;
   width:80%;
-}
+  text-align: center;
+  position:relative;
+  left:10%;
+ }
 
-/*
+
 .naviguation_menu > li {
     text-decoration:none;
-    border:1px red solid;
-    color:red;
-}
-*/
+    }
 
+@media screen and (max-width: 768px){
+    .naviguation_menu > li {
+        width:100%;
+    }
+
+}
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover
 {
@@ -40,21 +46,41 @@
 
 .descri_entre{
   font-style:italic;
+  text-align: left;
 }
 
-.menu, .menu_middle{
-  text-align: center;
+.section_entree
+{
+    text-align: center;
+    position:relative;
 }
 
-.menu_middle{
+
+.menu_left, .menu_droite{
   text-align: center;
-  border-right: 3px gray dotted;
-  border-left: 3px gray dotted;
+  position:relative;
 }
+
+.menu_left{
+
+    border-left: 3px gray dotted;
+    border-right: 3px gray dotted;
+}
+
+.menu_droite{
+    border-right: 3px gray dotted;
+}
+
 
 .col_entree, .col_plat, .col_dessert{
   border-right: 3px gray dotted;
   border-left: 3px gray dotted
+}
+
+@media screen and (max-width: 992px){
+    .menu_left, .menu_droite, .col_entree, .col_plat, .col_dessert{
+        border:0px;
+    }
 }
 
 .nav
@@ -65,26 +91,22 @@ margin-bottom:3%;
 div.container> div > div > ul{
   list-style-type:none;
   margin-top:5%;
+  padding:0px;
 }
 
 div.container> div > div > ul > li{
   padding-bottom:10px;
 }
 
-li.active: > a{
-  color:red;
-}
-.nav > li > a{
-color:blue;
+.logo_menu{
+    height:40px;
+    width:60px;
 }
 
-
-div.container > div > div > h4{
-  color:black;
-  font-size: 1.6em;
-  font-weight: bold;
-  margin-bottom:10%;
-
+.titre_menu{
+    color:black;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 div.container > div > div > ul > li{
