@@ -99,6 +99,8 @@ top:5px;
   .sidenav a {font-size: 18px;}
 }
 
+
+
 /* CSS benjamin evenements *
 /* CONTAINERS BEHAVIOR */
 .events-section {
@@ -106,12 +108,13 @@ top:5px;
 }
 
 .carousel.carousel_event{
-  width: 450px;
-  height: 600px;
-	margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-	overflow: hidden;
+}
+
+.carousel-inner img{
+  width: 100%;
+  height: auto;
 }
 
 .panel-group {
@@ -142,15 +145,6 @@ span {margin-left: 5%;}
 .panel-body {line-height: 1.6;}
 
 
-#accordion .panel-heading a.collapsed:hover,
-#accordion .panel-heading a.collapsed:focus {
-  background-color: #b42b2b;
-  color: white;
-  transition: all 0.2s ease-in;
-
-
-
-
 /* MEDIA QUERIES */  
 
 @media only screen and (min-width: 1080px) {
@@ -175,7 +169,11 @@ p {font-size: 1.3em;}
 }
 
 p {font-size: 1.2em;}
+
+
 }
+
+
 
 /* CSS benjamin histoire */
 
