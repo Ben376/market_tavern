@@ -14,6 +14,7 @@
   <body>
 <header>
   <div class="background cover-page">
+
     <!-- NAVBAR -->
     <header class="banner navbar navbar-default navbar-fixed-top" role="banner">
     <!-- LOGO MOBILE VERSION -->
@@ -23,7 +24,7 @@
       <span class="btn-open" style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
       <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="#">OUR STORY</a>
+          <a href="#history">OUR STORY</a>
           <a href="#">RESTAURANT</a>
           <a href="#">EVENTS</a>
           <a href="#">DRAFT & BEER</a>
@@ -38,8 +39,10 @@
       </div>
     </div>
     <div class="container-fluid text-center">
+      <div class="title-cover">
         <h1>THE MARKET TAVERN</h1>
-        <p>Locally Sourced × Crafted with Love</p>      
+        <p>Locally Sourced × Crafted with Love</p>  
+      </div>      
     </div>
     <div class="container hidden-xs hidden-sm">
       <div class="grid-cover-page">
@@ -90,7 +93,7 @@
 
 
     <!-- Breve partie historique du restaurant qui redirige vers la 2nd page -->
-  <section>
+  <section id="history">
 
     <div class="container part_histoire">
         <div class="row">
@@ -823,12 +826,27 @@
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
     }
+
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 30) {
+          $(".navbar").css("background" , "black");
+        }
+
+        else{
+          $(".black").css("background" , "TRANSPARENT");   
+        }
+      })
+    })
+
 </script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
 
 
   </body>

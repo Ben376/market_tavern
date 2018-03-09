@@ -278,18 +278,28 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   background-size: cover;
 }
 
-  /* NAVBAR */
-  div.container-fluid:nth-child(3) > h1:nth-child(1){
-    margin-top: 95px;
-  }
+.overlay {
+  background-color: rgba(0,0,0,.2);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.title-cover {
+  margin-top: 95px;
+}
 
 
-  .navbar {
-    background-color: rgba(0,0,0,0);
+/* NAVBAR & SIDEBAR */
+.navbar {
+    background-color: black;
     border: none;
     min-height: 95px;
-  }
-/* NAVBAR & SIDEBAR */
+}
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -354,11 +364,12 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 .cover-page {
   color: white;
 }
+
 /* LOGO */
 .logo {
-  max-width : 40vw;
+  max-width : 30vw;
   max-height: 95px;
-  margin-top: -15px;
+  margin-top: 10px;
 }
 
 /* INFORBAR */
