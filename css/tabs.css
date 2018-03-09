@@ -294,7 +294,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: rgba(0,0,0,0.95);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
