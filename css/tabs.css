@@ -193,7 +193,7 @@ span {margin-left: 5%;}
 
 
 
-/* Media queries events */  
+/* Media queries events */
 
 @media only screen and (min-width: 1080px) {
 .titre-accordeon {
@@ -241,9 +241,6 @@ background-color:rgba(210,210,210,0.5)
 border:2px gray solid;
 margin-bottom:10%;
 }
-.cadre_boisson{
-height:650px;
-}
 
 .cadre_biere{
 height:450px;
@@ -278,7 +275,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 
 .align-center { text-align:center; }
 
-.histoire-titre { 
+.histoire-titre {
   font-size: 3rem;
   word-wrap: break-word;
   margin-top: 0;
@@ -319,9 +316,9 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   display:block;
 }
 
-.histoire-button { 
-  text-align: center; 
-  margin-top: 8%; 
+.histoire-button {
+  text-align: center;
+  margin-top: 8%;
   margin-bottom: 5%;
 }
 
@@ -369,8 +366,8 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
     display: block;
     transition: 0.4s;
     text-align: center;
-  
-    
+
+
 }
 
 .sidenav a:hover {
@@ -405,7 +402,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 }
 
 
-  
+
 .container-fluid {
   padding-top: 10px;
   padding-bottom: 10px;
