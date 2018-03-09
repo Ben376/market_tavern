@@ -7,16 +7,22 @@
 .block_entre{
   margin-bottom:15%;
   width:80%;
-}
+  text-align: center;
+  position:relative;
+  left:10%;
+ }
 
-/*
+
 .naviguation_menu > li {
     text-decoration:none;
-    border:1px red solid;
-    color:red;
-}
-*/
+    }
 
+@media screen and (max-width: 768px){
+    .naviguation_menu > li {
+        width:100%;
+    }
+
+}
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover
 {
@@ -40,21 +46,41 @@
 
 .descri_entre{
   font-style:italic;
+  text-align: left;
 }
 
-.menu, .menu_middle{
-  text-align: center;
+.section_entree
+{
+    text-align: center;
+    position:relative;
 }
 
-.menu_middle{
+
+.menu_left, .menu_droite{
   text-align: center;
-  border-right: 3px gray dotted;
-  border-left: 3px gray dotted;
+  position:relative;
 }
+
+.menu_left{
+
+    border-left: 3px gray dotted;
+    border-right: 3px gray dotted;
+}
+
+.menu_droite{
+    border-right: 3px gray dotted;
+}
+
 
 .col_entree, .col_plat, .col_dessert{
   border-right: 3px gray dotted;
   border-left: 3px gray dotted
+}
+
+@media screen and (max-width: 992px){
+    .menu_left, .menu_droite, .col_entree, .col_plat, .col_dessert{
+        border:0px;
+    }
 }
 
 .nav
@@ -65,26 +91,22 @@ margin-bottom:3%;
 div.container> div > div > ul{
   list-style-type:none;
   margin-top:5%;
+  padding:0px;
 }
 
 div.container> div > div > ul > li{
   padding-bottom:10px;
 }
 
-li.active: > a{
-  color:red;
-}
-.nav > li > a{
-color:blue;
+.logo_menu{
+    height:40px;
+    width:60px;
 }
 
-
-div.container > div > div > h4{
-  color:black;
-  font-size: 1.6em;
-  font-weight: bold;
-  margin-bottom:10%;
-
+.titre_menu{
+    color:black;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 div.container > div > div > ul > li{
@@ -132,10 +154,12 @@ div.container > div > div > ul > li{
 
 /* SECTION EVENTS BEN *
 /* CONTAINERS BEHAVIOR */
+.container.event-container {background-color: rgb(245,245,245);}
+
 .carousel.carousel_event{
   width: 420px;
   height: 600px;
-	margin: auto;
+  margin: auto;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -168,7 +192,8 @@ span {margin-left: 5%;}
 .panel-body {line-height: 1.6;}
 
 
-/* MEDIA QUERIES */
+
+/* Media queries events */  
 
 @media only screen and (min-width: 1080px) {
 .titre-accordeon {
@@ -192,33 +217,6 @@ p {font-size: 1.3em;}
 }
 
 p {font-size: 1.2em;}
-}
-
-/* SECTION 1 HISTOIRE BEN */
-
-.part_histoire{
-  margin-top:50px;
-  border:2px red solid;
-}
-.sidebar{
-	background: #dbdfe5;
-	text-align: center;
-	border-radius: 15px;
-  margin-top: 25%;
-  margin-bottom: 10%;
-}
-
-.content{
-    text-align: center;
-    min-height: 400px;
-    border-radius: 15px;
-}
-
-.img_histoire {
-    width: 100%;
-    height: auto;
-    margin-top:15px;
-    margin-bottom: 15px;
 }
 
 
@@ -266,6 +264,69 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   color:red;
 
 */
+
+/* SECTION HISTORY BEN*/
+.histoire-section {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-image: linear-gradient(#00BFFF, white);
+}
+
+.histoire-page-droite img { margin:auto; }
+
+.histoire-logo{ padding-bottom: 1rem; }
+
+.align-center { text-align:center; }
+
+.histoire-titre { 
+  font-size: 3rem;
+  word-wrap: break-word;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  padding-bottom: 1.5rem;
+}
+
+.histoire-text:before {
+    color: #333333;
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.2em;
+    vertical-align: -0.4em;
+    position: absolute;
+    top: 3px;
+    left: -1rem;
+}
+
+.histoire-text:after {
+    color: #333333;
+    content: "\201D";
+    font-size: 3em;
+    line-height: 0.1em;
+    vertical-align: -0.45em;
+    position: absolute;
+    bottom: 3px;
+    right: -1rem;
+}
+
+.histoire-text {
+  font-size: 1.75rem;
+  line-height: 1.6;
+  font-style: normal;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display:block;
+}
+
+.histoire-button { 
+  text-align: center; 
+  margin-top: 8%; 
+  margin-bottom: 5%;
+}
+
+
+
 
 /* COVER PAGE */
 
