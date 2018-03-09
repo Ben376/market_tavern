@@ -369,6 +369,12 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 .cover-page {
   color: white;
 }
+/* LOGO */
+.logo {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 75px;
+}
 
 /* INFORBAR */
 .border-right {
