@@ -9,13 +9,18 @@
   width:80%;
 }
 
-/*
+
 .naviguation_menu > li {
     text-decoration:none;
-    border:1px red solid;
-    color:red;
+    }
+
+@media screen and (max-width: 768px){
+    .naviguation_menu > li {
+        width:100%;
+    }
+
 }
-*/
+
 
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover
