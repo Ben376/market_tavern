@@ -132,10 +132,12 @@ div.container > div > div > ul > li{
 
 /* SECTION EVENTS BEN *
 /* CONTAINERS BEHAVIOR */
+.container.event-container {background-color: rgb(245,245,245);}
+
 .carousel.carousel_event{
   width: 420px;
   height: 600px;
-	margin: auto;
+  margin: auto;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -168,7 +170,8 @@ span {margin-left: 5%;}
 .panel-body {line-height: 1.6;}
 
 
-/* MEDIA QUERIES */
+
+/* Media queries events */  
 
 @media only screen and (min-width: 1080px) {
 .titre-accordeon {
@@ -192,33 +195,6 @@ p {font-size: 1.3em;}
 }
 
 p {font-size: 1.2em;}
-}
-
-/* SECTION 1 HISTOIRE BEN */
-
-.part_histoire{
-  margin-top:50px;
-  border:2px red solid;
-}
-.sidebar{
-	background: #dbdfe5;
-	text-align: center;
-	border-radius: 15px;
-  margin-top: 25%;
-  margin-bottom: 10%;
-}
-
-.content{
-    text-align: center;
-    min-height: 400px;
-    border-radius: 15px;
-}
-
-.img_histoire {
-    width: 100%;
-    height: auto;
-    margin-top:15px;
-    margin-bottom: 15px;
 }
 
 
@@ -266,6 +242,69 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   color:red;
 
 */
+
+/* SECTION HISTORY BEN*/
+.histoire-section {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-image: linear-gradient(#00BFFF, white);
+}
+
+.histoire-page-droite img { margin:auto; }
+
+.histoire-logo{ padding-bottom: 1rem; }
+
+.align-center { text-align:center; }
+
+.histoire-titre { 
+  font-size: 3rem;
+  word-wrap: break-word;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  padding-bottom: 1.5rem;
+}
+
+.histoire-text:before {
+    color: #333333;
+    content: "\201C";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.2em;
+    vertical-align: -0.4em;
+    position: absolute;
+    top: 3px;
+    left: -1rem;
+}
+
+.histoire-text:after {
+    color: #333333;
+    content: "\201D";
+    font-size: 3em;
+    line-height: 0.1em;
+    vertical-align: -0.45em;
+    position: absolute;
+    bottom: 3px;
+    right: -1rem;
+}
+
+.histoire-text {
+  font-size: 1.75rem;
+  line-height: 1.6;
+  font-style: normal;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display:block;
+}
+
+.histoire-button { 
+  text-align: center; 
+  margin-top: 8%; 
+  margin-bottom: 5%;
+}
+
+
+
 
 /* COVER PAGE */
 
