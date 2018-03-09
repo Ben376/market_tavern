@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/tabs.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- FONT AWESOME -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <!-- /FONT AWESOME -->
+
+
+
+
   </head>
   <body>
 <header>
@@ -686,13 +685,66 @@
 </div>
 </section>
 
-    <!--> Partie formulaire contact et réservation <-->
-    <section>
 
+    <section>
+        <div class="container-fluid">
+            <div class="container content_resa">
+                <div class="row">
+                 <h2>Contact et réservations</h2>
+                    <div class="col-xs-12 col-md-5 reservation">
+                        <p class="titre_reservation"> Réservations</p>
+                        <p class="text_reservation"> Vous souhaitez réserver une table au Market Tavern ? Merci alors de remplir le forumulaire ci dessous</p>
+                        <div class="form-group">
+                             <label>Nom</label>
+                                 <input type="text" class="form-control" placeholder="Saisissez votre nom">
+                             <label>Votre numéro de telephone</label>
+                                 <input type="tel" class="form-control" placeholder="Saisissez votre n° de telephone">
+                             <label>Votre email</label>
+                                 <input type="email" class="form-control" placeholder="Saisissez votre email">
+                            <label>Nombre de personne</label>
+                                <select class="form-control" id="sel1">
+                                    <option>1 personne</option>
+                                    <option>2 personnes</option>
+                                    <option>3 personnes</option>
+                                    <option>4 personnes</option>
+                                    <option>5 personnes</option>
+                                    <option>6 personnes</option>
+                                    <option>Au dela, nous contacter directement</option>
+                                </select>
+                            <label for="sel1">Précisez votre heure d'arrivée</label>
+                                <div class="date_heure">
+                                    <input type="date" name="bday">
+                                    <select class="form-control heure" id="sel1">
+                                        <option>12h</option>
+                                        <option>12h30</option>
+                                        <option>13h</option>
+                                        <option>13h30</option>
+                                        <option>21h</option>
+                                        <option>21h30</option>
+                                        <option>22h</option>
+                                        <option>22h30</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-primary">Envoyez la réservation</button>
+                        </div>
+                        <div class="col-xs-12 col-md-5 col-md-offset-2 reservation">
+                            <p class="titre_contact"> Nous contacter </p>
+                            <p class="text_reservation"> Adresse : 15 rue de Rodes à Bordeaux <br>
+                            Telepohone : 05 56 44 09 58 </br>
+                            <a href="HELLO@THEMARKETTAVER"> Nous envoyez un mail </a>
+                            </p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2828.478469083551!2d-0.5744692489272006!3d44.8525533789959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd552879c241f0a7%3A0xb03531d05a62180!2sThe+Market+Tavern!5e0!3m2!1sfr!2sfr!4v1520548526612" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
 
 
-    <!--> Partie footer <-->
+
+
+
 
     <footer>
     <div class="container-fluid fond_footer">
@@ -729,12 +781,13 @@
           <div class="col-xs-12 copyright">
             <p> The Market Tavern : Site réalisé par l'agence de communication #AT Team. © Tout droit réservés</p>
           </div>
-
         </div>
-
       </div>
-
     </div>
+
+
+
+
 
 
     </footer>
@@ -744,9 +797,11 @@
 
 
 
-
-
-
+<script type="text/javascript">
+      $(function (){
+        $('.carousel').carousel();
+      });
+</script>
 <script>
     function openNav() {
         document.getElementById("mySidenav").style.width = "300px";
@@ -758,15 +813,11 @@
     }
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script type="text/javascript">
-  $(function (){
-    $('.carousel').carousel();
-  });
-</script>
+
 
   </body>
 </html>
