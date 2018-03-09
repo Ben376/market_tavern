@@ -443,34 +443,45 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   text-transform: uppercase;
 }
 
-/* GRID ON COVER PAGE */
-
-.grid-cover-page {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr ;
-  grid-gap: 10px ;
+/* METRO UI */
+.metro {
+  border: 3px solid #AC193D;
 }
 
-.grid-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  vertical-align: middle;
-  text-align: center;
-  border: 2px solid black;
-  border-radius: 15px;
+.tile {  
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff; 
+  color: #fff;  
+  padding: 20px;
+  margin-bottom: 10px;
 }
 
-.grid-item-A {
-  grid-column: span 2;
-  grid-row: span 2;
+.title {
+    margin-top: 0px;
 }
 
-.grid-item-B {
-  grid-column: span 2;
-  grid-row : 1 ;
+background: darken($color_purple, 10%)
+
+.purple {
+  background-color: #5133AB;
 }
+
+.blue {
+  background-color: #2672EC;
+}
+
+.red {
+  background-color: #AC193D;
+}
+.orange {
+  background-color: #DC572E;
+}
+.green {
+  background-color: #00A600;
+}
+
 
 /* CSS footer */
 .list_footer{
