@@ -514,6 +514,12 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   height: 70px;
 }
 
+/* FIX WITDH CAROUSSEL ! */ 
+
+#myCarousel {
+  max-width: 100%;
+}
+
 /* CSS footer */
 .list_footer{
   list-style-type: none;
