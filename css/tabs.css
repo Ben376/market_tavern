@@ -474,7 +474,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 }
 
 .purple {
-  background-color: #5133AB;
+  background-color: rgba(81,51,171,0.5);
 }
 
 .purple:hover {
@@ -484,7 +484,8 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 }
 
 .blue {
-  background-color: #2672EC;
+  background-color: rgba(38,114,236,0.5);
+
 }
 
 .blue:hover {
@@ -494,7 +495,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 }
 
 .orange {
-  background-color: #DC572E;
+  background-color: rgba(220,87,46,0.5);
 }
 
 .orange:hover {
@@ -504,7 +505,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 }
 
 .green {
-  background-color: #00A600;
+  background-color: rgba(0,166,0,0.5);
 }
 
 .green:hover {
