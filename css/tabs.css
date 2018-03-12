@@ -353,7 +353,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 }
 
 .title-cover>h1 {
-  font-size: 60px;
+  font-size: 5rem;
   font-weight: 500;
   font-family: market;
 
@@ -456,6 +456,10 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 }
 
 /* METRO UI */
+
+.metro {
+  
+}
 
 .tile {  
   width: 100%;
