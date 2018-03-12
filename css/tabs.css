@@ -166,12 +166,18 @@ p {font-size: 1.3em;}
 p {font-size: 1.2em;}
 }
 
-/* SECTION HISTORY BEN*/
-.histoire-section {
-    padding-top: 45px;
-    padding-bottom: 45px;
-    background-image: linear-gradient(#00BFFF, white);
+/* CSS SECTION HISTOIRE */
+.histoire-section { 
+  background-image: linear-gradient(white, #E0E0E0);
+  height: 100%;
 }
+
+.histoire-page-droite { 
+  padding-top: 20%; 
+  padding-bottom: 20%; 
+}
+
+.histoire-page-gauche {padding-top: 18%; }
 
 .histoire-page-droite img { margin:auto; }
 
@@ -179,8 +185,9 @@ p {font-size: 1.2em;}
 
 .align-center { text-align:center; }
 
-.histoire-titre { 
-  font-size: 3rem;
+.histoire-titre {
+  font-family: 'Caveat';
+  font-size: 4.5rem;
   word-wrap: break-word;
   margin-top: 0;
   margin-bottom: .5rem;
@@ -211,9 +218,9 @@ p {font-size: 1.2em;}
 }
 
 .histoire-text {
-  font-size: 1.75rem;
+  font-size: 2rem;
   line-height: 1.6;
-  font-style: normal;
+  font-style: italic;
   position: relative;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -223,7 +230,12 @@ p {font-size: 1.2em;}
 .histoire-button { 
   text-align: center; 
   margin-top: 8%; 
-  margin-bottom: 5%;
+}
+
+.btn.btn-danger { font-size: 1.75rem; }
+
+@media only screen and (max-width: 480px) {
+  .histoire-text {font-size: 1.75rem;}
 }
 
 
