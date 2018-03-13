@@ -358,12 +358,18 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 
 */
 
-/* SECTION HISTORY BEN*/
-.histoire-section {
-    padding-top: 45px;
-    padding-bottom: 45px;
-    background-image: linear-gradient(#00BFFF, white);
+/* CSS SECTION HISTOIRE */
+.histoire-section { 
+  background-image: linear-gradient(white, #E0E0E0);
+  height: 100%;
 }
+
+.histoire-page-droite { 
+  padding-top: 20%; 
+  padding-bottom: 20%; 
+}
+
+.histoire-page-gauche {padding-top: 18%; }
 
 .histoire-page-droite img { margin:auto; }
 
@@ -372,7 +378,8 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 .align-center { text-align:center; }
 
 .histoire-titre {
-  font-size: 3rem;
+  font-family: 'Caveat';
+  font-size: 4.5rem;
   word-wrap: break-word;
   margin-top: 0;
   margin-bottom: .5rem;
@@ -403,21 +410,25 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 }
 
 .histoire-text {
-  font-size: 1.75rem;
+  font-size: 2rem;
   line-height: 1.6;
-  font-style: normal;
+  font-style: italic;
   position: relative;
   margin-top: 0;
   margin-bottom: 1rem;
   display:block;
 }
 
-.histoire-button {
-  text-align: center;
-  margin-top: 8%;
-  margin-bottom: 5%;
+.histoire-button { 
+  text-align: center; 
+  margin-top: 8%; 
 }
 
+.btn.btn-danger { font-size: 1.75rem; }
+
+@media only screen and (max-width: 480px) {
+  .histoire-text {font-size: 1.75rem;}
+}
 
 
 
