@@ -175,6 +175,7 @@ a:hover,a:focus{
 #accordion .panel{
     border: none;
     border-radius: 0;
+    background: transparent;
     box-shadow: none;
     margin: 0 0 15px 50px;
 }
