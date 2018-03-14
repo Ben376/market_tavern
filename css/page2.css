@@ -33,7 +33,7 @@ h2{
 
 }
 
-.histoire{
+#histoire{
     background-color: #F5F5F5;
 }
 
@@ -84,6 +84,10 @@ hr{
     margin-bottom:5%;
 }
 
+.fond_footer > div > div > div > ul > li > a{
+    text-decoration: none;
+    color:white;
+}
 .logo_rsocial{
     height:20px;
     width:20px;
