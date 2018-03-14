@@ -8,6 +8,7 @@ h1{
     margin-bottom: 5%;
     color:#CD5C5C;
     font-family: market, serif;
+    text-align: center;
 }
 
 .histoire-titre {
@@ -22,7 +23,13 @@ h1{
 h2{
     font-size: 2.8rem;
     color:#5F9EA0;
-    margin-bottom:2%;
+    margin-bottom:4%;
+}
+
+@media screen and (max-width: 768px){
+    h2{
+        text-align: center;
+    }
 }
 
 /* CSS julien */
@@ -30,6 +37,7 @@ h2{
 
 .menu_carte{
     background-color:#F5F5F5;
+    padding-bottom: 5%;
 }
 
 
@@ -53,32 +61,28 @@ h2{
 
 }
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
-    background-color:#E8E8E8;
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+    background-color:transparent;
 }
 
 .nav-tabs > li.active .no-active > a:focus{
-    background-color:#E8E8E8;
+    background-color:#transparent;
 }
+
 .nav-tabs > li.active > a > h2, .nav-tabs > li.active > a:focus > h2 {
     font-weight: bold;
 }
 
-
-
-
-/*
-.nav-tabs > li.active > a > .nav-tabs > li.active > a:focus > .nav-tabs > li.active > a:hover >
-{
-    color:black;
-    font-weight:bold;
+.block_entre{
+    margin-bottom:35%;
 }
 
-.nav-tabs > li.no-active > a > .nav-tabs > li.no-active > a:focus > .nav-tabs > li.no-active > a:hover {
-    color:black;
-    font-size:25px;
-}*/
+@media screen and (max-width: 768px){
+    .block_entre{
+        margin-bottom: 15%;;
+    }
 
+}
 
 .entree{
   display:flex;
@@ -137,9 +141,7 @@ div.container> div > div > ul{
   padding:0px;
 }
 
-div.container> div > div > ul > li{
-  padding-bottom:10px;
-}
+
 
 .logo_menu{
     height:40px;
@@ -152,11 +154,10 @@ div.container> div > div > ul > li{
     font-size: 1.5em;
 }
 
-div.container > div > div > ul > li{
-  font-style: italic;
-  margin:2%;
+.menu_left > ul > li, .menu_droite > ul > li {
+    margin-bottom: 5%;
+    font-style: italic;
 }
-
 
 /* Navar fixé */
 
@@ -326,8 +327,8 @@ span.texte-heure { color: green; }
     margin:auto;
     border-radius: 55px 55px 55px 55px;
     overflow: hidden;
-    height: 150px;
-    width: 200px;
+    height: 35%;
+    width: 35%;
     margin-bottom: 45px;
 }
 
@@ -365,13 +366,10 @@ height:auto;
 
 /* CSS Bar et bieres */
 
-.section_cokail{
+.section_coctkail{
     background-color:#F5F5F5;
-}
-
-.ligne_coktail{
-margin-top:80px;
-margin-bottom: 80px;
+    padding-top: 5%;
+    padding-bottom:5%;
 }
 
 
@@ -394,15 +392,11 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   font-size:1.2em;
 }
 
-/*
-.section_biere > .container > .row > h3{
-  color:red;
 
-*/
 
 /* CSS SECTION HISTOIRE */
 .histoire-section {
-  background-image: linear-gradient(white, #E0E0E0);
+  background-color:#F5F5F5;
   height: 100%;
 }
 
@@ -567,11 +561,6 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   top:0;
 }
 
-.container-fluid {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 .cover-page {
   color: white;
 }
@@ -682,6 +671,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
     height:20px;
     width:20px;
     margin-left:5%;
+    background-color: white;
 }
 
 .copyright > p{
@@ -718,9 +708,9 @@ div.col-md-5> .text_reservation{
 
 .reservation{
     position:relative;
-    border:2px black solid;
-    border-radius: 20px;
-    margin-bottom:5%;
+    border:2px gray solid;
+    height:630px;
+    margin-bottom: 5%;
 }
 
 .date_heure{
@@ -741,9 +731,9 @@ div.col-md-5> .text_reservation{
     position:relative;
     margin-bottom:8%;
     background-color:#CD5C5C;
-    width:60%;
-    left:20%;
-    right:20%;
+    width:70%;
+    left:15%;
+    right:15%;
 }
 
 iframe{
