@@ -53,18 +53,31 @@ h2{
 
 }
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
+    background-color:#E8E8E8;
+}
+
+.nav-tabs > li.active .no-active > a:focus{
+    background-color:#E8E8E8;
+}
+.nav-tabs > li.active > a > h2, .nav-tabs > li.active > a:focus > h2 {
+    font-weight: bold;
+}
+
+
+
+
+/*
+.nav-tabs > li.active > a > .nav-tabs > li.active > a:focus > .nav-tabs > li.active > a:hover >
 {
     color:black;
     font-weight:bold;
-    font-size:20px;
-
 }
 
-.nav-tabs > li.no-active > a, .nav-tabs > li.no-active > a:focus, .nav-tabs > li.no-active > a:hover{
+.nav-tabs > li.no-active > a > .nav-tabs > li.no-active > a:focus > .nav-tabs > li.no-active > a:hover {
     color:black;
     font-size:25px;
-}
+}*/
 
 
 .entree{
