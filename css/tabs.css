@@ -168,7 +168,7 @@ div.container> div > div > ul{
 
 
 .navbar-header{
-  width:100%;
+  /*! width:100%; */
 }
 
 
@@ -505,7 +505,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 
 @media screen and (min-width: 1200px) {
   .title-cover-page {
-    margin-top:0px;
+    margin-top:20px;
   }
 }
 
@@ -576,6 +576,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 
 .logo-navbar {
   height: 50px;
+  margin-right: 10px;
 }
 
 // Affix btn RESERVATION @1200px witdh
@@ -642,10 +643,16 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   top:5px;
 }
 
+@media screen and (min-width:1200px) {
+    .btn-open {
+        top:20px;
+    }
+}
+
 .infobar {
-  margin-top: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .cover-page {
@@ -671,7 +678,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 }
 
 .infobar {
-  padding-top: 50px;
+  padding-top: 0px;
   text-transform: uppercase;
 }
 

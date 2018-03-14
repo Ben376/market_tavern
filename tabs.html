@@ -16,11 +16,19 @@
 
     <!-- NAVBAR -->
     <nav class="banner navbar navbar-default navbar-fixed-top" role="banner">
-      <div class="navbar-header">
+      <div class="container-fluid">
+      <div class="navbar-header hidden-lg">
         <img class="navbar-brand logo-navbar" src="./img/logo-white-no-text.png" alt="logo-market-tavern">        
-        <a class="navbar-brand" href="#">The Market Tavern</a>
-        <button type="button" class="btn btn-success navbar-btn navbar-right visible-sm visible-md">RESERVATION</button>
+        <a class="navbar-brand hidden-lg" href="#">The Market Tavern</a>
       </div>
+        <button type="button" class="btn btn-success navbar-btn navbar-right visible-sm visible-md">RESERVATION</button>
+        <div class="row infobar text-center visible-lg">
+        <div class="col-lg-4 border-right"><p>15 RUE DE LA RODE <br> 33000 BORDEAUX <br> (+33) 05 56 44 09 58 </p></div>
+        <div class="col-lg-4 border-right"><p>EVERY DAY 12H-00H <br> RESERVATION au (+33) 05 56 44 09 58  <br> HELLO@THEMARKETTAVERN.COM </p></div>
+        <!-- TESTING AFFIX data-spy="affix" data-offset-top="405" --> 
+        <div class="col-lg-4"><p><br><a href="#" class="btn btn-success btn-lg book">RESERVATION</a><br/></p></div>
+      </div>
+          
       <span class="btn-open" style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
       <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -31,6 +39,7 @@
           <a href="#">BAR & BEER</a>
           <a href="#">RESERVATION</a>
       </div>
+    </div>
     </nav>
     <div class="container-fluid text-center visible-lg">
       <div class="row infobar">
