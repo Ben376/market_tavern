@@ -501,15 +501,21 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   margin-bottom: 0px;
 }
 
+@media screen and (max-width: 992px) {
+  .title-cover-page {
+    margin-top:70px;
+  }
+}
+
 .metro  {
   margin-top: 20px;
 }
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
   .title-cover-page {
     margin-top: 0px;
   }
-}
+} */
 
 /* NAVBAR & SIDEBAR */
 .navbar {
@@ -521,9 +527,11 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 .navbar-header > a.navbar-brand {
   color: white;
   font-family: market;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
-  margin-left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
 }
 
 .btn.navbar-right {
@@ -603,7 +611,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 /* FONTS */
 @font-face {
   font-family: "market";
-  src: url("./fonts/MonaLisaStd.otf") format("opentype");
+  src: url("../fonts/MonaLisaStd-Solid.otf") format("opentype");
 }
 
 /* LOGO */
