@@ -604,7 +604,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 /* FONTS */
 @font-face {
   font-family: "market";
-  src: url("./fonts/MonaLisaStd.otf") format("opentype");
+  src: url("../fonts/MonaLisaStd-Solid.otf") format("opentype");
 }
 
 /* LOGO */
