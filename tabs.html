@@ -119,7 +119,7 @@
 
 
 <!-- HTML SECTION HISTOIRE -->
-<section class="histoire-section">
+<section id="histoire-section">
     <!-- HTML SECTION HISTOIRE - TEXTE -->
     <div class="container">
         <div class="row">
@@ -198,7 +198,7 @@
     </section>
 
 
-<section class="container-fluid menu_carte">
+<section class="container-fluid"  id="menu_carte">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
@@ -481,11 +481,11 @@
     </div>
 </section>
 
-   <div class="container-fluid section_biere">
+   <div class="container-fluid">
    <div class="container">
     <div class="row">
       <h1> Nos boissons </h1>
-      <h2>Nos bières anglaises</h2>
+      <h2 id="bieres">Nos bières anglaises</h2>
       <div class="col-xs-12 col-sm-6 col-md-3">
         <div class="cadre_biere">
           <img src="img/biere1.jpg" alt="biere Old Tom Original" class="img-responsive img_biere"/>
@@ -541,7 +541,7 @@
 <section class="container-fluid section_coctkail">
      <div class="container">
       <div class="row">
-        <h2>N'oubliez pas nos cocktails maisons ! </h2>
+        <h2 id="cocktail">N'oubliez pas nos cocktails maisons ! </h2>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="cadre_boisson">
                 <img src="img/coktail1.jpg" alt="Coktail Pims" class="img-responsive img_coktail"/>
@@ -588,7 +588,7 @@
 
 
 <!-- HTML SECTION EVENTS -->
-<section class="events-section">
+<section id="events-section">
 <!-- HTML SECTION EVENTS - CAROUSEL -->
 <div class="container">
 	<div class="row">
@@ -803,29 +803,29 @@
         <div class="row">
           <div class="col-xs-12 col-md-4">
             <ul class="list_footer">
-              <li> Notre menus </li>
-              <li> Entrées</li>
-              <li> Plats </li>
-              <li> Dessert</li>
+              <li> <a href="#menu_carte">Notre menus</a></li>
+              <li> <a href="#menu_carte">Entrées</a></li>
+              <li> <a href="#menu_carte">Plats</a></li>
+              <li> <a href="#menu_carte">Dessert</a></li>
             </ul>
           </div>
           <div class="col-xs-12 col-md-4">
             <ul class="list_footer">
-              <li> Notre bar </li>
-              <li> Nos bières </li>
-              <li> Nos diffusions sportives</li>
-              <li> Nos quizz et concert</li>
+              <li> <a href="#bieres">Nos bieres</a> </li>
+              <li> <a href="#cocktail">Nos cocktails</a> </li>
+              <li> <a href="#events-section">Nos diffusions sportives</a></li>
+              <li> <a href="#events-section">Nos quizz et concert</a></li>
             </ul>
           </div>
           <div class="col-xs-12 col-md-4">
             <ul class="list_footer">
-              <li> Notre histoire </li>
-              <li> Nos événenemnts </li>
-              <li> Abonnez à notre news letter</li>
+              <li> <a href="#histoire-section"> Notre histoire </a> </li>
+              <li> <a href="#events-section"> Nos evenements </a> </li>
+              <li> Abonnez à notre newsletter</li>
               <li>
-                <img src="img/facebook.png" alt=="logo_facebook" class="logo_rsocial"/>
-                <img src="img/twitter.jpg" alt=="logo_facebook" class="logo_rsocial"/>
-                <img src="img/instagram.png" alt=="logo_facebook" class="logo_rsocial"/>
+                <a href="https://www.facebook.com/themarkettavernbordeaux/" target="blank"><img src="img/facebook.png" alt=="logo_facebook" class="logo_rsocial"/></a>
+                <a href="https://twitter.com/themarkettav?lang=fr" target="blank"><img src="img/twitter.jpg" alt=="logo_facebook" class="logo_rsocial"/></a>
+                <a href="https://www.instagram.com/explore/locations/1877108145851496/the-market-tavern/" target="blank"><img src="img/instagram.png" alt=="logo_facebook" class="logo_rsocial"/></a>
               </li>
             </ul>
           </div>
@@ -835,6 +835,10 @@
         </div>
       </div>
     </div>
+
+    </a>
+
+
 
 
 

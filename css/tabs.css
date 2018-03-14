@@ -395,7 +395,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 
 
 /* CSS SECTION HISTOIRE */
-.histoire-section {
+#histoire-section {
   background-color:#F5F5F5;
   height: 100%;
 }
@@ -669,6 +669,11 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 .list_footer{
   list-style-type: none;
   color:white;
+}
+
+.fond_footer > div > div > div > ul > li > a{
+    text-decoration: none;
+    color:white;
 }
 
 .fond_footer{
