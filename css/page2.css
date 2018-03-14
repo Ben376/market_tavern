@@ -1,15 +1,44 @@
-.img-fluid{
-  width:100%;
-  height:auto;
+
+body{
+    font-size: 15px;
+    background-image: url(../img/Blue-Texture-Background.jpg);
+    background-repeat:round;
+
 }
 
-.background-image {
-  background-image: url("..img/image_de_fond.jpg");
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+h1{
+    text-align: center;
+    font-size: 4rem;
+    color: #751D1D;
+    font-weight: bold;
+}
+
+.read_about{
+    color: #C94747;
+    font-weight: bold;
+}
+
+.read_about:visited{
+    color: #751D1D;
+    font-weight: bold;
+}
+
+hr{
+    border: 1px solid #751D1D;
+}
+
+.img-fluid{
+    width:100%;
+    height: auto;
+    border-radius: 20px;
+    border: 7px solid #751D1D;
+    margin-left: 0;
+
+}
+
+.texte1{
+    text-align: left;
+    padding:3%;
+    color: white;
 
 }
