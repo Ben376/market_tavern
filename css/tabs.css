@@ -490,7 +490,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   margin-top: 95px;
 }
 
-.title-cover>h1 {
+.title-cover-page {
   font-size: 60px;
   font-weight: 500;
   font-family: market, serif;
@@ -503,6 +503,18 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
     background-color: black;
     border: none;
     padding: 5px;
+}
+
+.navbar-header > a.navbar-brand {
+  color: white;
+  font-family: market;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-left: 0;
+}
+
+.logo-navbar {
+  height: 50px;
 }
 
 .sidenav {
