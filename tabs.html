@@ -15,13 +15,12 @@
   <div class="container-fluid  cover-page">
 
     <!-- NAVBAR -->
-    <header class="banner navbar navbar-default navbar-fixed-top" role="banner">
+    <nav class="banner navbar navbar-default navbar-fixed-top" role="banner">
       <div class="navbar-header">
         <img class="navbar-brand logo-navbar" src="./img/logo-white-no-text.png" alt="logo-market-tavern">        
         <a class="navbar-brand" href="#">The Market Tavern</a>
         <button type="button" class="btn btn-success navbar-btn navbar-right visible-sm visible-md">RESERVATION</button>
       </div>
-
       <span class="btn-open" style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
       <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -30,20 +29,21 @@
           <a href="#">RESTAURANT</a>
           <a href="#">EVENEMENTS</a>
           <a href="#">BAR & BEER</a>
-          <a href="#">BOOK A TABLE</a>
+          <a href="#">RESERVATION</a>
       </div>
-    </header>
+    </nav>
     <div class="container-fluid text-center visible-lg">
       <div class="row infobar">
         <div class="col-md-4 border-right"><p>15 RUE DE LA RODE <br> 33000 BORDEAUX <br> (+33) 05 56 44 09 58 </p></div>
-        <div class="col-md-4 border-right"><p>EVERY DAY 12H-00H <br> RESERVATION au 01 42 64 52 23 <br> HELLO@THEMARKETTAVERN.COM </p></div>
-        <div class="col-md-4"><p><br><a href="#" class="btn btn-default btn-lg book">BOOK A TABLE</a><br/></p></div>
+        <div class="col-md-4 border-right"><p>EVERY DAY 12H-00H <br> RESERVATION au (+33) 05 56 44 09 58  <br> HELLO@THEMARKETTAVERN.COM </p></div>
+        <!-- TESTING AFFIX data-spy="affix" data-offset-top="405" --> 
+        <div class="col-md-4"><p><br><a href="#" class="btn btn-success btn-lg book">RESERVATION</a><br/></p></div>
       </div>
     </div>
     <div class="container-fluid text-center">
       <div class="title-cover">
         <h1 class="title-cover-page">The Market Tavern</h1>
-        <p class="title-caption">Produits de saison × Fabriqués avec amour</p>
+        <p class="title-caption">Produits de saison × Cuisinés avec amour</p>
       </div>      
     </div>
     <div class="container-fluid metro hidden-xs">
@@ -78,43 +78,6 @@
   </div>
 </div>
 </header>
-
-  <!-- Barre menu fixe en haut avec informations essentielles -->
-<!--   <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-                <div class="container-fluid">
-                    <div class="row">
-                      <div class="hidden-xs hidden-sm col-md-4 col_tel">
-                        <img src="img/tel.png" alt="logo_tel" class="logo_tel">
-                        <p class="navbar-text"> : 05 56 44 09 58</p>
-                      </div>
-                      <div class="hidden-xs col-md-4 col_adresse">
-                        <img src="img/loc.png" alt="logo_tel" class="logo_loc">
-                        <p class="navbar-text"> 15, rue Rode. 33000 Bordeaux</p>
-                      </div>
-                      <div class="hidden-xs col-md-2 col_adresse">
-                        <button type="button" class="btn btn-primary btn-lg btn_resa">Reservez maintenant !!</button>
-                      </div>
-                    </div>
-                  </div>
-            <span class="btn-open" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-        </div>
-            <div id="mySidenav" class="sidenav">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <a href="#">Notre histoire</a>
-              <a href="#">Menus</a>
-              <a href="#">Le Bar</a>
-              <a href="#">Nous contacter</a>
-            </div>
-        </div>
-      </div>
-  </nav>
--->
-<!-- Travail de la "cover page" pour faire afficher le menu via des vignettes -->
-</header>
-
-
 
 <!-- HTML SECTION HISTOIRE -->
 <section class="histoire-section">
@@ -861,6 +824,7 @@
         }
       })
     })
+
 
 </script>
 

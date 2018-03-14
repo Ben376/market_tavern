@@ -191,6 +191,7 @@ div.container> div > div > ul{
   background-color:black;
 }
 
+// ?? WTF ??
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -502,9 +503,9 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   margin-top:70px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .title-cover-page {
-    margin-top:70px;
+    margin-top:0px;
   }
 }
 
@@ -539,6 +540,18 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   font-size: 1.5rem;
 }
 
+@media screen and (min-width: 1200px){
+    .title-caption {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .title-caption {
+        font-size: 1.75rem;
+    }
+}
+
 .btn-success {
   background-color: #5f9ea0;
 }
@@ -564,6 +577,14 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 .logo-navbar {
   height: 50px;
 }
+
+// Affix btn RESERVATION @1200px witdh
+.affix {
+    top: 10;
+    width: 100%
+    z-index: 9999 !important;
+  }
+
 
 .sidenav {
     height: 100%;
