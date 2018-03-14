@@ -1,8 +1,45 @@
+body{
+    font-size: 14px;
+    font-style: helvetica, serif;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 5%;
+    color:#CD5C5C;
+    font-family: market, serif;
+    text-align: center;
+}
+
+.histoire-titre {
+  font-family: 'Caveat', serif;
+  word-wrap: break-word;
+  font-size: 5rem;
+  margin-top: 0;
+  padding-bottom: 1.5rem;
+}
+
+
+h2{
+    font-size: 2.8rem;
+    color:#5F9EA0;
+    margin-bottom:4%;
+}
+
+@media screen and (max-width: 768px){
+    h2{
+        text-align: center;
+    }
+}
+
 /* CSS julien */
 /* CSS des pills */
-.first_container{
-  margin-bottom: 3%;
+
+.menu_carte{
+    background-color:#F5F5F5;
+    padding-bottom: 5%;
 }
+
 
 .block_entre{
   margin-bottom:15%;
@@ -24,18 +61,28 @@
 
 }
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover
-{
-    color:black;
-    font-weight:bold;
-    font-size:20px;
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+    background-color:transparent;
 }
 
-.nav-tabs > li.no-active > a, .nav-tabs > li.no-active > a:focus, .nav-tabs > li.no-active > a:hover{
-    color:black;
-    font-size:25px;
+.nav-tabs > li.active .no-active > a:focus{
+    background-color:#transparent;
 }
 
+.nav-tabs > li.active > a > h2, .nav-tabs > li.active > a:focus > h2 {
+    font-weight: bold;
+}
+
+.block_entre{
+    margin-bottom:35%;
+}
+
+@media screen and (max-width: 768px){
+    .block_entre{
+        margin-bottom: 15%;;
+    }
+
+}
 
 .entree{
   display:flex;
@@ -94,9 +141,7 @@ div.container> div > div > ul{
   padding:0px;
 }
 
-div.container> div > div > ul > li{
-  padding-bottom:10px;
-}
+
 
 .logo_menu{
     height:40px;
@@ -109,11 +154,10 @@ div.container> div > div > ul > li{
     font-size: 1.5em;
 }
 
-div.container > div > div > ul > li{
-  font-style: italic;
-  margin:2%;
+.menu_left > ul > li, .menu_droite > ul > li {
+    margin-bottom: 5%;
+    font-style: italic;
 }
-
 
 /* Navar fixé */
 
@@ -155,15 +199,12 @@ div.container > div > div > ul > li{
 
 /* CSS SECTION EVENTS - ACCORDEON */
 
-.events-section { background-image: linear-gradient(white, #E0E0E0); }
 
 .page-carousel {
-    padding-top: 5%; 
     padding-bottom: 5%;
 }
 
 .demo {
-  padding-top: 5%;
   padding-bottom: 5%;
 }
 
@@ -286,8 +327,8 @@ span.texte-heure { color: green; }
     margin:auto;
     border-radius: 55px 55px 55px 55px;
     overflow: hidden;
-    height: 150px;
-    width: 200px;
+    height: 35%;
+    width: 35%;
     margin-bottom: 45px;
 }
 
@@ -325,14 +366,12 @@ height:auto;
 
 /* CSS Bar et bieres */
 
-.ligne_coktail{
-margin-top:80px;
-margin-bottom: 80px;
+.section_coctkail{
+    background-color:#F5F5F5;
+    padding-top: 5%;
+    padding-bottom:5%;
 }
 
-.section_biere{
-background-color:rgba(210,210,210,0.5)
-}
 
 .cadre_boisson, .cadre_biere{
 border:2px gray solid;
@@ -353,24 +392,20 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   font-size:1.2em;
 }
 
-/*
-.section_biere > .container > .row > h3{
-  color:red;
 
-*/
 
 /* CSS SECTION HISTOIRE */
-.histoire-section { 
-  background-image: linear-gradient(white, #E0E0E0);
+.histoire-section {
+  background-color:#F5F5F5;
   height: 100%;
 }
 
-.histoire-page-droite { 
-  padding-top: 20%; 
-  padding-bottom: 20%; 
+.histoire-page-droite {
+  padding-top: 12%;
+  padding-bottom: 15%;
 }
 
-.histoire-page-gauche {padding-top: 18%; }
+.histoire-page-gauche {padding-top: 12%; }
 
 .histoire-page-droite img { margin:auto; }
 
@@ -378,14 +413,6 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 
 .align-center { text-align:center; }
 
-.histoire-titre {
-  font-family: 'Caveat';
-  font-size: 4.5rem;
-  word-wrap: break-word;
-  margin-top: 0;
-  margin-bottom: .5rem;
-  padding-bottom: 1.5rem;
-}
 
 .histoire-text:before {
     color: #333333;
@@ -420,12 +447,15 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   display:block;
 }
 
-.histoire-button { 
-  text-align: center; 
-  margin-top: 8%; 
+.histoire-button {
+  text-align: center;
+  margin-top: 8%;
 }
 
-.btn.btn-danger { font-size: 1.75rem; }
+.btn.btn-danger {
+    font-size: 1.75rem;
+    background-color:#CD5C5C;
+}
 
 @media only screen and (max-width: 480px) {
   .histoire-text {font-size: 1.75rem;}
@@ -594,11 +624,11 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 
 }
 
-.tile {  
+.tile {
   width: 100%;
   display: inline-block;
   box-sizing: border-box;
-  color: #fff;  
+  color: #fff;
   padding: 20px;
   margin-bottom: 30px;
 }
@@ -651,7 +681,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
   height: 70px;
 }
 
-/* FIX WITDH CAROUSSEL ! */ 
+/* FIX WITDH CAROUSSEL ! */
 
 #myCarousel {
   max-width: 100%;
@@ -664,7 +694,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 }
 
 .fond_footer{
-  background-color:#918F8F;
+  background-color:black;
 }
 
 .fond_footer > div > div > div > ul > li{
@@ -675,6 +705,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
     height:20px;
     width:20px;
     margin-left:5%;
+    background-color: white;
 }
 
 .copyright > p{
@@ -685,6 +716,9 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 }
 
 /* Partie reservation */
+.content_resa{
+    background-color: #F5F5F5;
+}
 
 .titre_reservation, .titre_contact{
     margin-top: 5%;
@@ -708,9 +742,9 @@ div.col-md-5> .text_reservation{
 
 .reservation{
     position:relative;
-    border:2px black solid;
-    border-radius: 20px;
-    margin-bottom:5%;
+    border:2px gray solid;
+    height:630px;
+    margin-bottom: 5%;
 }
 
 .date_heure{
@@ -727,12 +761,13 @@ div.col-md-5> .text_reservation{
     width:30%;
 }
 
-.btn-primary{
+.btn_resa{
     position:relative;
     margin-bottom:8%;
-    width:60%;
-    left:20%;
-    right:20%;
+    background-color:#CD5C5C;
+    width:70%;
+    left:15%;
+    right:15%;
 }
 
 iframe{
