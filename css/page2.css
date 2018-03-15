@@ -1,17 +1,42 @@
 
 body{
-    font-size: 15px;
-    background-image: url(../img/Blue-Texture-Background.jpg);
-    background-repeat:round;
+    font-size: 14px;
+    padding-top: 70px;
 
 }
+
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
 
 h1{
-    text-align: center;
     font-size: 4rem;
-    color: #751D1D;
-    font-weight: bold;
+    margin-bottom: 5%;
+    color:#CD5C5C;
+    font-family: market, serif;
+    text-align: center;
 }
+
+h2{
+    font-size: 2.8rem;
+    color:#5F9EA0;
+    margin-bottom:4%;
+    text-align: center;
+}
+
+.title-cover-page {
+  font-size: 60px;
+  font-weight: 500;
+  font-family: market, serif;
+
+}
+
+#histoire{
+    background-color: #F5F5F5;
+}
+
 
 .read_about{
     color: #C94747;
@@ -33,12 +58,46 @@ hr{
     border-radius: 20px;
     border: 7px solid #751D1D;
     margin-left: 0;
-
 }
 
-.texte1{
-    text-align: left;
-    padding:3%;
-    color: white;
+.photo{
+    margin-top:2%;
+}
 
+
+
+
+
+/* footer */
+
+.list_footer{
+  list-style-type: none;
+  color:white;
+  margin-top:5%;
+}
+
+.fond_footer{
+  background-color:black;
+}
+
+.fond_footer > div > div > div > ul > li{
+    margin-bottom:5%;
+}
+
+.fond_footer > div > div > div > ul > li > a{
+    text-decoration: none;
+    color:white;
+}
+.logo_rsocial{
+    height:20px;
+    width:20px;
+    margin-left:5%;
+    background-color: white;
+}
+
+.copyright > p{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top:1%;
 }

@@ -381,12 +381,17 @@ margin-bottom:10%;
 
 .cadre_biere{
 height:450px;
+position:relative;
 }
 
 .titre_boisson{
   font-weight:bold;
   font-size:1.5em;
-}
+  margin-top: 8%;
+  position:relative;
+  left:8%;
+  width:92%;
+ }
 
 div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div > ul > li{
   font-style:italic;
@@ -396,7 +401,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 
 
 /* CSS SECTION HISTOIRE */
-.histoire-section {
+#histoire-section {
   background-color:#F5F5F5;
   height: 100%;
 }
@@ -750,6 +755,11 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 .list_footer{
   list-style-type: none;
   color:white;
+}
+
+.fond_footer > div > div > div > ul > li > a{
+    text-decoration: none;
+    color:white;
 }
 
 .fond_footer{
