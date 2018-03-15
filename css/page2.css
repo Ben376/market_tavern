@@ -101,3 +101,153 @@ hr{
     text-align: center;
     margin-top:1%;
 }
+
+
+// Navbar
+
+.navbar {
+    background-color: black;
+    border: none;
+    padding: 5px;
+}
+
+.infobar{
+    background-color: black;
+}
+
+.navbar-header > a.navbar-brand {
+  color: white;
+  font-family: market;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+}
+
+.title-caption {
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1200px){
+    .title-caption {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .title-caption {
+        font-size: 1.75rem;
+    }
+}
+
+.btn-success {
+  background-color: #5f9ea0;
+}
+
+.btn-success:hover {
+  background-color: #63B7A2;
+}
+
+.btn {
+  font-weight: 600;
+}
+
+@media screen and (min-width:992px){
+  .navbar-header > a.navbar-brand {
+    font-size: 3rem;
+  }
+}
+
+.btn.navbar-right {
+  margin-right: 55px;
+}
+
+.logo-navbar {
+  height: 50px;
+  margin-right: 10px;
+}
+
+// Affix btn RESERVATION @1200px witdh
+.affix {
+    top: 10;
+    width: 100%
+    z-index: 9999 !important;
+  }
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.95);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #b3b3b3;
+    display: block;
+    transition: 0.4s;
+    text-align: center;
+
+
+}
+
+.sidenav a:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.sidenav a:first-child {
+  border-bottom: none;
+}
+
+.sidenav a:hover:first-child {
+  color: red;
+}
+
+.closebtn:hover {
+  color: red;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: 50px;
+    margin-left: 2px;
+}
+
+.btn-open {
+  position:fixed;
+  right: 15px;
+  top:5px;
+}
+
+@media screen and (min-width:1200px) {
+    .btn-open {
+        top:20px;
+    }
+}
+
+.infobar {
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+.cover-page {
+  color: white;
+}
+
+.border-right{
+    border-right:2px white solid;
+}
