@@ -650,7 +650,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 
 @media screen and (min-width:1200px) {
     .btn-open {
-        top:20px;
+        top:15px;
     }
 }
 
@@ -841,4 +841,8 @@ div.col-md-5> .text_reservation{
 
 iframe{
     width:100%;
+}
+
+.book {
+  margin: 12px;
 }
