@@ -472,7 +472,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 /* COVER PAGE */
 .cover-container {
   height:100vh;
-  min-height:650px; 
+  min-height:650px;
 }
 
 @media screen and (max-width: 768px) {
@@ -688,7 +688,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 }
 
 /* METRO UI */
-.tile {  
+.tile {
   width: 100%;
   display: inline-block;
   box-sizing: border-box;
@@ -785,7 +785,7 @@ div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div
 }
 
 /* Partie reservation */
-.content_resa{
+#content_resa{
     background-color: #F5F5F5;
 }
 
@@ -842,4 +842,3 @@ div.col-md-5> .text_reservation{
 iframe{
     width:100%;
 }
-
