@@ -5,13 +5,10 @@
     <title>THE MARKET TAVERN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" href="css/tabs.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
   </head>
   <body>
 <header class="cover-container background">
@@ -27,7 +24,7 @@
         <button type="button" class="btn btn-success navbar-btn navbar-right visible-sm visible-md">RESERVATION</button>
         <div class="row infobar text-center visible-lg">
         <div class="col-lg-4 border-right"><p>15 RUE DE LA RODE <br> 33000 BORDEAUX <br> (+33) 05 56 44 09 58 </p></div>
-        <div class="col-lg-4 border-right"><p>EVERY DAY 12H-00H <br> RESERVATION au (+33) 05 56 44 09 58  <br> HELLO@THEMARKETTAVERN.COM </p></div>
+        <div class="col-lg-4 border-right"><p>TOUS LES JOURS 12H-00H <br> RESERVATION au (+33) 05 56 44 09 58  <br> HELLO@THEMARKETTAVERN.COM </p></div>
         <!-- TESTING AFFIX data-spy="affix" data-offset-top="405" -->
         <div class="col-lg-4"><p><a href="#" class="btn btn-success btn-lg book">RESERVATION</a></p></div>
       </div>
@@ -38,8 +35,8 @@
           <a href="#" onclick="closeNav()">ACCUEIL</a>
           <a href="#histoire-section" onclick="closeNav()">NOTRE HISTOIRE</a>
           <a href="#menu_carte" onclick="closeNav()">RESTAURANT</a>
-          <a href="#events-section" onclick="closeNav()">EVENEMENTS</a>
           <a href="#bieres" onclick="closeNav()">BAR & BEER</a>
+          <a href="#events-section" onclick="closeNav()">EVENEMENTS</a>
           <a href="#content_resa" onclick="closeNav()">RESERVATION</a>
       </div>
     </div>
@@ -106,7 +103,7 @@
                 <h1 class="histoire-titre align-center">
                     L'histoire du Market Tavern</h1>
                 <p class="histoire-text align-center">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et doloreasdes magna aliqua. Ut enim cuiad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodalo consequat. Duis aute irure dolor ireprehenderit enovin voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Ouvert au début de l'année 2015, The Market Tavern Bordeaux GastroPub est à la pointe de la gastronomie moderne et des bières artisanales savoureuses. Inspiré par les gastro-pubs modernes de Londres, TMT est un petit établissement familial situé au cœur du quartier chic et historique des Chartrons à Bordeaux.
                 </p>
                 <div class="histoire-button align-center">
                         <a href="page2.html"><button type="button" class="btn btn-danger">A propos de nous</button></a>
@@ -464,7 +461,7 @@
         <div class="cadre_biere">
           <img src="img/biere1.jpg" alt="biere Old Tom Original" class="img-responsive img_biere"/>
           <p class="titre_boisson"> Old Tom Original</p>
-          <ul>
+          <ul class="liste_biere">
               <li> Provenance : Robinsons</li>
               <li> Type : blonde</li>
               <li> Degré : 8,5 °</li>
@@ -477,7 +474,7 @@
           <div class="cadre_biere">
               <img src="img/biere2.jpg" alt="Fuller's 1845" class="img-responsive img_biere"/>
               <p class="titre_boisson"> Fuller's 1845</p>
-              <ul>
+              <ul class="liste_biere">
                   <li> Provenance : Fuller's Brewery</li>
                   <li> Type : Ambrée</li>
                   <li> Degré : 6.3 °</li>
@@ -489,7 +486,7 @@
             <div class="cadre_biere">
               <img src="img/biere3.jpg" alt="Thronbridge" class="img-responsive img_biere"/>
               <p class="titre_boisson"> Thornbridge Bracia</p>
-              <ul>
+              <ul class="liste_biere">
                   <li> Provenance : Thornbridge</li>
                   <li> Type : Noire</li>
                   <li> Degré : 10 °</li>
@@ -501,7 +498,7 @@
               <div class="cadre_biere">
                 <img src="img/biere4.jpg" alt="AleSmith Private" class="img-responsive img_biere"/>
                 <p class="titre_boisson"> Old Tom Original</p>
-                <ul>
+                <ul class="liste_biere">
                     <li> Provenance : AleSmith Brewing</li>
                     <li> Type : Brune</li>
                     <li> Degré : 11 °</li>
@@ -519,40 +516,40 @@
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="cadre_boisson">
                 <img src="img/coktail1.jpg" alt="Coktail Pims" class="img-responsive img_coktail"/>
-                 <p class="titre_boisson"> Americano </p>
-                <ul>
-                   <li> Ingredients : 2cl de Martini, 4cl de campari, de l'eau gazeuse</li>
-                    <li> Prix : 3.5 €</li>
+                 <p class="titre_boisson"> English Punch </p>
+                <ul class="liste_cocktail">
+                    <li> Gin, Limonade, fruits frais, citron vert </li>
+                    <li> Prix : 9 €</li>
                 </ul>
             </div>
         </div>
           <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="cadre_boisson">
                   <img src="img/coktail5.jpeg" alt="Coktail Pims" class="img-responsive img_coktail"/>
-                  <p class="titre_boisson"> Americano </p>
-                  <ul>
-                      <li> Ingredients : 2cl de Martini, 4cl de campari, de l'eau gazeuse</li>
-                      <li> Prix : 3.5 €</li>
+                  <p class="titre_boisson"> Negroni </p>
+                  <ul class="liste_cocktail">
+                      <li> Gin, Martini et Campari, Limonade</li>
+                      <li> Prix : 8 €</li>
                   </ul>
              </div>
               </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
               <div class="cadre_boisson">
                   <img src="img/coktail3.jpeg" alt="Coktail Pims" class="img-responsive img_coktail"/>
-                  <p class="titre_boisson"> Americano </p>
-                  <ul>
-                      <li> Ingredients : 2cl de Martini, 4cl de campari, de l'eau gazeuse</li>
-                      <li> Prix : 3.5 €</li>
+                  <p class="titre_boisson"> Lynchburg Lemonade </p>
+                  <ul class="liste_cocktail">
+                      <li> Jack Daniel's, Triple Sec, Limonade </li>
+                      <li> Prix : 8.5 €</li>
                   </ul>
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-3">
                 <div class="cadre_boisson">
                     <img src="img/coktail4.jpeg" alt="Coktail Pims" class="img-responsive img_coktail"/>
-                     <p class="titre_boisson"> Americano </p>
-                    <ul>
-                        <li> Ingredients : 2cl de Martini, 4cl de campari, de l'eau gazeuse</li>
-                        <li> Prix : 3.5 €</li>
+                     <p class="titre_boisson"> Cosmopolitain </p>
+                    <ul class="liste_cocktail">
+                        <li> Vodka, Cointreau, Jus de fraise </li>
+                        <li> Prix : 10 €</li>
                     </ul>
                   </div>
                 </div>
@@ -809,7 +806,10 @@
 
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 
 <script type="text/javascript">
