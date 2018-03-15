@@ -32,12 +32,12 @@
             <span class="btn-open" style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">ACCUEIL</a>
-                <a href="#histoire-section">NOTRE HISTOIRE</a>
-                <a href="#menu_carte">RESTAURANT</a>
-                <a href="#events-section">EVENEMENTS</a>
-                <a href="#bieres">BAR & BEER</a>
-                <a href="#content_resa">RESERVATION</a>
+                <a href="tabs.html#">ACCUEIL</a>
+                <a href="tabs.html#histoire-section">NOTRE HISTOIRE</a>
+                <a href="tabs.html#menu_cartee">RESTAURANT</a>
+                <a href="tabs.html#events-section">EVENEMENTS</a>
+                <a href="tabs.html#bieres">BAR & BEER</a>
+                <a href="tabs.html#content_resa">RESERVATION</a>
             </div>
           </div>
           </nav>
@@ -193,6 +193,34 @@
             </div>
           </div>
  </footer>
+
+
+ <script>
+     function openNav() {
+         document.getElementById("mySidenav").style.width = "100vw";
+         document.getElementById("mySidenav").style.height = "100vh";
+     }
+
+     function closeNav() {
+         document.getElementById("mySidenav").style.width = "0";
+     }
+
+     $(document).ready(function(){
+       $(window).scroll(function(){
+         var scroll = $(window).scrollTop();
+         if (scroll > 30) {
+           $(".navbar").css("background" , "black");
+         }
+
+         else{
+           $(".black").css("background" , "TRANSPARENT");
+         }
+       })
+     })
+
+
+ </script>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
