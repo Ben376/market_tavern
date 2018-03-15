@@ -379,8 +379,10 @@ border:2px gray solid;
 margin-bottom:10%;
 }
 
+
+
 .cadre_biere{
-height:450px;
+height:500px;
 position:relative;
 }
 
@@ -391,12 +393,18 @@ position:relative;
   position:relative;
   left:8%;
   width:92%;
- }
+}
 
-div.container-fluid > div > div > div> div > ul > li, .ligne_coktail > div > div > ul > li{
+
+.liste_biere, .liste_cocktail{
   font-style:italic;
   font-size:1.2em;
-}
+ }
+
+ .liste_cocktail{
+     margin-bottom: 20%;
+ }
+
 
 
 
