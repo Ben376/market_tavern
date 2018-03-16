@@ -105,14 +105,14 @@ hr{
 
 // Navbar
 
+.banner{
+    background-color: black;
+}
+
 .navbar {
     background-color: black;
     border: none;
     padding: 5px;
-}
-
-.infobar{
-    background-color: black;
 }
 
 .navbar-header > a.navbar-brand {
@@ -234,20 +234,22 @@ hr{
 
 @media screen and (min-width:1200px) {
     .btn-open {
-        top:20px;
+        top:15px;
     }
 }
 
 .infobar {
   margin-top: 0px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .cover-page {
   color: white;
 }
 
-.border-right{
-    border-right:2px white solid;
+/* FONTS */
+@font-face {
+  font-family: "market";
+  src: url("../fonts/MonaLisaStd-Solid.otf") format("opentype");
 }
