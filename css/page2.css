@@ -244,6 +244,14 @@ hr{
   padding-bottom: 0px;
 }
 
+.border-right {
+    border-right: 1px solid white;
+}
+
+.book {
+    margin-top: 13px;
+}
+
 .cover-page {
   color: white;
 }
