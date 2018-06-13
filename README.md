@@ -1,6 +1,6 @@
 # The Market Tavern
 
-The website of an English pub in Bordeaux.
+The responsive website of an English pub in Bordeaux.
 
 ## Getting Started
 
@@ -26,7 +26,8 @@ GIT
 
 Stéphane DA SILVEIRA
 Julien NIEDZWIECKI
-Ludwig Vantours
+Benjamin SEURIN
+Ludwig VANTOURS
 
 ## License
 
